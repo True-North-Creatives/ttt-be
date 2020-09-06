@@ -126,7 +126,21 @@ router.post('/body',[
         console.log(err.message);
         res.status(500).send('Server Error')
     }
+});
 
+router.get('/:user_id', async(req,res) =>{
+    try {
+        const profile = await Profile.findOne({user: req.params.user_id}).populate('user',['name','age','gender']);
+        console.log(profile);
+        if(!profile)return res.status(400).json({msg: 'Profile not found'});
+        res.json(profile);
+    } catch (error) {
+        console.log(err.message);
+        if (err.kind === 'ObjectId') {
+            return res.status(400).json({ msg: 'Profile not found' });
+        }
+        res.status(500).send('server error');
+    }
 });
 
 module.exports = router;
