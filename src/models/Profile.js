@@ -5,9 +5,10 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
+mongoose.set('useFindAndModify',false);
 const ProfileSchema = new mongoose.Schema({
   user: {
-    type: mongoose.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     ref: "user",
   },
   height: {
@@ -16,72 +17,57 @@ const ProfileSchema = new mongoose.Schema({
   },
   bodyMeasurements: {
     weight: {
-      type: String,
-      required: true,
+      type: String
     },
     fat: {
-      type: String,
-      required: true,
+      type: String
     },
     waist: {
-      type: String,
-      required: true,
+      type: String
     },
     chest: {
-      type: String,
-      required: true,
+      type: String
     },
     hip: {
-      type: String,
-      required: true,
+      type: String
     },
     quad: {
-      type: String,
-      required: true,
+      type: String
     },
     leftBicep: {
-      type: String,
-      required: true,
+      type: String
     },
     rightBicep: {
-      type: String,
-      required: true,
+      type: String
     },
     leftForeArm: {
-      type: String,
-      required: true,
+      type: String
     },
     rightForeArm: {
-      type: String,
-      required: true,
+      type: String
     },
     leftThigh: {
-      type: String,
-      required: true,
+      type: String
     },
     rightThigh: {
-      type: String,
-      required: true,
+      type: String
     },
     leftCalf: {
-      type: String,
-      required: true,
+      type: String
     },
-    rightcalf: {
-      type: String,
-      required: true,
+    rightCalf: {
+      type: String
     },
     shoulder: {
-      type: String,
-      required: true,
-    },
+      type: String
+    }
   },
   dailySleep: {
     type: String,
     required: true,
   },
   diet: {
-    Cusine: {
+    cusine: {
       type: String,
       required: true,
     },

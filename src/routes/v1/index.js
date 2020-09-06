@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable import/newline-after-import */
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-multi-assign */

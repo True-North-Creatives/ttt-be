@@ -8,17 +8,18 @@
 /* eslint-disable prettier/prettier */
 const express = require('express');
 const router = express.Router();
-// const {check,validationResult} = require('express-validator');
 
+// models
 const User = require('../../models/User');
 
+// dummy route to add users to db
 router.post('/',async(req,res) =>{
     // console.log(req.body)
     const {name,email,age,gender,dateJoined,plan,subscription,place} = req.body;
     try {
         console.log('asd')
        let user = await User.findOne({email});
-       if(user)return res.send('user exists');
+       if(user)return res.status(400).json({msg:'User already exists'});
        user = new User({
            name,email,age,gender,dateJoined,plan,subscription,place
        });

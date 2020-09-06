@@ -4,6 +4,7 @@
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
 
+mongoose.set('useFindAndModify',false);
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
