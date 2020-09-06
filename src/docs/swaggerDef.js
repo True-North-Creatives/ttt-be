@@ -5,7 +5,7 @@ const swaggerDef = {
   openapi: "3.0.0",
   info: {
     title: "node-express-mongoose-boilerplate API documentation",
-    version
+    version,
   },
   servers: [
     {
