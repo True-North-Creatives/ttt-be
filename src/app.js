@@ -1,5 +1,7 @@
+/* eslint-disable prettier/prettier */
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require('body-parser');
 const httpStatus = require("http-status");
 const config = require("./config/config");
 const morgan = require("./config/morgan");
@@ -8,6 +10,10 @@ const { errorConverter, errorHandler } = require("./middlewares/error");
 const ApiError = require("./utils/ApiError");
 
 const app = express();
+
+// enable json data
+app.use(express.json({ extended: false }));
+app.use(bodyParser.json());
 
 if (config.env !== "test") {
   app.use(morgan.successHandler);
