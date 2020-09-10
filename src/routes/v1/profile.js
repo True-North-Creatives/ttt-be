@@ -13,13 +13,12 @@ const {check,validationResult} = require('express-validator');
 // models
 const User = require('../../models/User');
 const Profile = require('../../models/Profile');
-const { findOneAndUpdate } = require('../../models/User');
 
-router.post('/',[
-    check('height','Height is required').not().isEmpty(),
-    check('dailySleep','DailySleep is required').not().isEmpty(),
-    check('cusine','Cusine is required').not().isEmpty()
-],async (req,res) =>{
+// middlewares
+const validateProfileFeilds = require('../../middlewares/profile');
+const validateBodyFeilds = require('../../middlewares/profile');
+
+router.post('/',validateProfileFeilds,async (req,res) =>{
     const errors = validationResult(req);
     if(!errors.isEmpty())return res.status(400).json({errors: errors.array()});
 
@@ -53,22 +52,7 @@ router.post('/',[
 
 });
 
-router.post('/body',[
-    check('weight','Weight is required').not().isEmpty(),
-    check('fat','Fat is required').not().isEmpty(),
-    check('waist','Waist is required').not().isEmpty(),
-    check('chest','Chest is required').not().isEmpty(),
-    check('hip','hip is required').not().isEmpty(),
-    check('quad','Quad is required').not().isEmpty(),
-    check('leftBicep','LeftBicep is required').not().isEmpty(),
-    check('leftForeArm','LeftForeArm is required').not().isEmpty(),
-    check('rightForeArm','RightForeArm is required').not().isEmpty(),
-    check('leftThigh','LeftThigh is required').not().isEmpty(),
-    check('rightThigh','RightThigh is required').not().isEmpty(),
-    check('leftCalf','LeftCalf is required').not().isEmpty(),
-    check('rightCalf','RightCalf is required').not().isEmpty(),
-    check('shoulder','Shoulder is required').not().isEmpty(),
-],async(req,res) =>{
+router.post('/body',validateBodyFeilds,async(req,res) =>{
     const errors = validationResult(req);
     if(!errors.isEmpty())return res.status(400).json({errors: errors.array()});
     

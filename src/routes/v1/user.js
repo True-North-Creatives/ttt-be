@@ -9,37 +9,14 @@
 const express = require('express');
 const router = express.Router();
 
-// models
-const User = require('../../models/User');
+// controllers
+const addUser = require('../../controllers/userController');
+const getAllUsers = require('../../controllers/userController');
 
 // dummy route to add users to db
-router.post('/',async(req,res) =>{
-    // console.log(req.body)
-    const {name,email,age,gender,dateJoined,plan,subscription,place} = req.body;
-    try {
-        console.log('asd')
-       let user = await User.findOne({email});
-       if(user)return res.status(400).json({msg:'User already exists'});
-       user = new User({
-           name,email,age,gender,dateJoined,plan,subscription,place
-       });
-       await user.save();
-       res.json(user)
-    } catch (err) {
-        // console.log(err.message);
-        res.status(500).send('Server Error')
-    }
-});
+router.post('/',addUser);
 
-router.get('/get_users',async(req,res) =>{
-    try {
-        const users = await User.find();
-        if(users.length === 0)return res.send('no users found');
-        res.json(users);
-    } catch (err) {
-        // console.log(err.message);
-        res.status(500).send('server error');
-    }
-});
+// get all users
+router.get('/get_users',getAllUsers);
 
 module.exports = router;
