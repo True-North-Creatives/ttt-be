@@ -5,7 +5,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
-const WorkoutDataSchema = new mongoose.Schema({
+const ExerciseSchema = new mongoose.Schema({
   URL: {
     type: String,
     required: true,
@@ -46,6 +46,6 @@ const WorkoutDataSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+},{collection: 'exercises'});
 
-module.exports = WorkoutData = mongoose.model("WorkoutData", WorkoutDataSchema);
+module.exports = Exercises = mongoose.model("exercises", ExerciseSchema);

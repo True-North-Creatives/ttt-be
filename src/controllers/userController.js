@@ -1,3 +1,7 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-console */
+/* eslint-disable no-multi-assign */
+/* eslint-disable no-undef */
 const User = require('../models/User');
 
 

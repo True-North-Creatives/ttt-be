@@ -1,3 +1,7 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-console */
+/* eslint-disable no-multi-assign */
+/* eslint-disable no-undef */
 const {validationResult} = require('express-validator');
 const Profile = require('../models/Profile');
 
@@ -29,6 +33,7 @@ module.exports = createProfile = async (req,res) =>{
         await profile.save();
         res.json(profile);
     } catch (err) {
+        // eslint-disable-next-line no-console
         console.log(err.message);
         res.status(500).send('Server Error')
     }
@@ -89,7 +94,7 @@ module.exports = addBodyFeilds = async(req,res) =>{
     //   create body measurements
       profile.bodyMeasurements = bodyMeasurements;
       await profile.save();
-      res.send(profile);
+      res.json(profile);
     } catch (err) {
         console.log(err.message);
         res.status(500).send('Server Error')
