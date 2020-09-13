@@ -3,21 +3,24 @@ const Joi = require('joi');
 
 const createProfile = {
     body: Joi.object().keys({
+        user: Joi.string().required(),  // here its userid
         height: Joi.string().required(),
         dailySleep: Joi.string().required(),
         diet: Joi.object({
-            cusine: Joi.string().required()
+            cusine: Joi.string().required(),
+            allergies: Joi.array().required()
         })
     })
 };
 
 const updateProfile = {
     body: Joi.object().keys({
-        id: Joi.string().required(),
+        id: Joi.string().required(), // here its profileid
         height: Joi.string().required(),
         dailySleep: Joi.string().required(),
         diet: Joi.object({
-            cusine: Joi.string().required()
+            cusine: Joi.string().required(),
+            allergies: Joi.array().required()
         })
     })
 }

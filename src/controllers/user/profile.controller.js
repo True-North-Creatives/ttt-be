@@ -1,4 +1,6 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable no-console */
+
 const httpStatus = require('http-status');
 
 const catchAsyc = require('../../utils/catchAsync');
