@@ -8,7 +8,7 @@ const addExercise = async (payload) =>{
     const {Title} = payload;
 
     let exercise = await ExerciseModel.findOne({Title});
-    if(exercise)  throw new ApiError(httpStatus.IM_USED, 'Exercise exists');
+    if(exercise)  throw new ApiError(httpStatus.INTERNAL_SERVER_ERROR, 'Exercise exists');
 
     exercise = new ExerciseModel(payload);
     await exercise.save();

@@ -3,6 +3,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
+const {toJSON} = require('../plugins')
 
 mongoose.set('useFindAndModify',false);
 const UserSchema = new mongoose.Schema({
@@ -40,4 +41,7 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-module.exports = User = mongoose.model("user", UserSchema);
+UserSchema.plugin(toJSON);
+const User = mongoose.model("user", UserSchema);
+
+module.exports = User;

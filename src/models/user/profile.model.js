@@ -5,6 +5,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
+const {toJSON} = require('../plugins');
+
 mongoose.set('useFindAndModify',false);
 const ProfileSchema = new mongoose.Schema({
   user: {
@@ -77,4 +79,7 @@ const ProfileSchema = new mongoose.Schema({
   },
 });
 
-module.exports = Profile = mongoose.model("profile", ProfileSchema);
+ProfileSchema.plugin(toJSON);
+const Profile = mongoose.model("profile", ProfileSchema);
+
+module.exports = Profile;

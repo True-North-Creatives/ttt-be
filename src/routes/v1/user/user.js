@@ -10,8 +10,8 @@ const express = require('express');
 const router = express.Router();
 
 // controllers
-const addUser = require('../../controllers/userController');
-const getAllUsers = require('../../controllers/userController');
+const addUser = require('../../../controllers/userController');
+const getAllUsers = require('../../../controllers/userController');
 
 // dummy route to add users to db
 router.post('/',addUser);
