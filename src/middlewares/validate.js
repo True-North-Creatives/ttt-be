@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+
+/* eslint-disable import/no-unresolved */
 const Joi = require("@hapi/joi");
 const httpStatus = require("http-status");
 const pick = require("../utils/pick");

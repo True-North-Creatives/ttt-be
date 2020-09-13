@@ -5,6 +5,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
+const {toJSON} =  require('../plugins');
+
 const ExerciseSchema = new mongoose.Schema({
   URL: {
     type: String,
@@ -48,4 +50,8 @@ const ExerciseSchema = new mongoose.Schema({
   },
 },{collection: 'exercises'});
 
-module.exports = Exercises = mongoose.model("exercises", ExerciseSchema);
+ExerciseSchema.plugin(toJSON);
+
+const Exercises = mongoose.model("exercises", ExerciseSchema);
+
+module.exports = Exercises;
