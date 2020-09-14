@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable import/no-unresolved */
 const rateLimit = require("express-rate-limit");
 
 const authLimiter = rateLimit({
