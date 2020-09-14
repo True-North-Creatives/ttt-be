@@ -1,11 +1,7 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-undef */
-/* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
-const {toJSON} = require('../plugins')
+const { toJSON } = require("../plugins");
 
-mongoose.set('useFindAndModify',false);
+mongoose.set("useFindAndModify", false);
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,

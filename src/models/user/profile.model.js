@@ -1,13 +1,7 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/newline-after-import */
-/* eslint-disable no-multi-assign */
-/* eslint-disable no-undef */
-/* eslint-disable prettier/prettier */
 const mongoose = require("mongoose");
-const {toJSON} = require('../plugins');
+const { toJSON } = require("../plugins");
 
-mongoose.set('useFindAndModify',false);
+mongoose.set("useFindAndModify", false);
 const ProfileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -19,50 +13,50 @@ const ProfileSchema = new mongoose.Schema({
   },
   bodyMeasurements: {
     weight: {
-      type: String
+      type: String,
     },
     fat: {
-      type: String
+      type: String,
     },
     waist: {
-      type: String
+      type: String,
     },
     chest: {
-      type: String
+      type: String,
     },
     hip: {
-      type: String
+      type: String,
     },
     quad: {
-      type: String
+      type: String,
     },
     leftBicep: {
-      type: String
+      type: String,
     },
     rightBicep: {
-      type: String
+      type: String,
     },
     leftForeArm: {
-      type: String
+      type: String,
     },
     rightForeArm: {
-      type: String
+      type: String,
     },
     leftThigh: {
-      type: String
+      type: String,
     },
     rightThigh: {
-      type: String
+      type: String,
     },
     leftCalf: {
-      type: String
+      type: String,
     },
     rightCalf: {
-      type: String
+      type: String,
     },
     shoulder: {
-      type: String
-    }
+      type: String,
+    },
   },
   dailySleep: {
     type: String,

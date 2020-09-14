@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 
 /* eslint-disable import/no-unresolved */
-const Joi = require('joi');
+const Joi = require("joi");
 const httpStatus = require("http-status");
 const pick = require("../utils/pick");
 const ApiError = require("../utils/ApiError");
