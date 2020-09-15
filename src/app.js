@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const httpStatus = require("http-status");
+const bodyParser = require("body-parser");
 const config = require("./config/config");
 const morgan = require("./config/morgan");
 const routes = require("./routes/v1");
@@ -21,10 +22,12 @@ if (config.env !== "test") {
 
 // enable cors
 app.use(cors());
+app.use(express.json());
+app.use(bodyParser.json());
 app.options("*", cors());
 
 // v1 api routes
-app.use("/v1", routes);
+app.use("/api/v1", routes);
 
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {
