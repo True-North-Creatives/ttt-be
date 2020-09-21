@@ -1,6 +1,7 @@
 const express = require("express");
 const validate = require("../../../middlewares/validate");
 const exerciseValidation = require("../../../validations/exercises.validation");
+const { authorize } = require("../../../middlewares/auth");
 
 const router = express.Router();
 
@@ -9,21 +10,35 @@ const exercisesController = require("../../../controllers/exercises/exercises.co
 // create an exercise
 router.post(
   "/",
-  validate(exerciseValidation.addExercise),
+  [
+    authorize("manager", "admin", "trainer"),
+    validate(exerciseValidation.addExercise),
+  ],
   exercisesController.addExercise
 );
 
 // update exersise
 router.put(
   "/",
-  validate(exerciseValidation.updateExercise),
+  [
+    authorize("manager", "admin", "trainer"),
+    validate(exerciseValidation.updateExercise),
+  ],
   exercisesController.updateExercise
 );
 
 // get all exercises
-router.get("/", exercisesController.getExercises);
+router.get(
+  "/",
+  authorize("manager", "admin", "trainer", "user"),
+  exercisesController.getExercises
+);
 
 // delete an exercise
-router.delete("/:id", exercisesController.deleteExercise);
+router.delete(
+  "/:id",
+  authorize("manager", "admin", "trainer"),
+  exercisesController.deleteExercise
+);
 
 module.exports = router;

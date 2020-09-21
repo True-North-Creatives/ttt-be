@@ -1,5 +1,6 @@
 const express = require("express");
 const menuController = require("../../../controllers/food/menu.controller");
+const { authorize } = require("../../../middlewares/auth");
 const validate = require("../../../middlewares/validate");
 const menuValidation = require("../../../validations/menu.validation");
 
@@ -7,21 +8,37 @@ const router = express.Router();
 
 router.put(
   "/",
-  validate(menuValidation.updateFoodItem),
+  [
+    authorize("admin", "manager", "nutritioner"),
+    validate(menuValidation.updateFoodItem),
+  ],
   menuController.updateMenuItem
 );
 
-router.get("/", validate(menuValidation.getFoodMenu), menuController.getMenu);
+router.get(
+  "/",
+  [
+    authorize("admin", "manager", "nutritioner", "user"),
+    validate(menuValidation.getFoodMenu),
+  ],
+  menuController.getMenu
+);
 
 router.post(
   "/",
-  validate(menuValidation.addFoodItem),
+  [
+    authorize("manager", "admin", "nutritioner"),
+    validate(menuValidation.addFoodItem),
+  ],
   menuController.addMenuItem
 );
 
 router.delete(
   "/:id",
-  validate(menuValidation.deleteFoodItem),
+  [
+    authorize("manager", "admin", "nutritioner"),
+    validate(menuValidation.deleteFoodItem),
+  ],
   menuController.deleteMenuItem
 );
 

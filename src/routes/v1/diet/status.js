@@ -2,6 +2,7 @@ const express = require("express");
 const statusController = require("../../../controllers/diet/status.controller");
 const validate = require("../../../middlewares/validate");
 const mealPlanStatusValidation = require("../../../validations/mealPlanStatus.validation");
+const { authorize } = require("../../../middlewares/auth");
 
 const router = express.Router();
 
@@ -10,13 +11,19 @@ const router = express.Router();
  */
 router.put(
   "/",
-  validate(mealPlanStatusValidation.updateStatus),
+  [
+    authorize("manager", "admin", "nutritioner"),
+    validate(mealPlanStatusValidation.updateStatus),
+  ],
   statusController.updateStatus
 );
 
 router.get(
   "/",
-  validate(mealPlanStatusValidation.getAllStatus),
+  [
+    authorize("manager", "admin", "nutritioner", "user"),
+    validate(mealPlanStatusValidation.getAllStatus),
+  ],
   statusController.getStatus
 );
 

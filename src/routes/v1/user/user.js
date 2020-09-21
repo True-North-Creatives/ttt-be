@@ -1,4 +1,5 @@
 const express = require("express");
+const { authorize } = require("../../../middlewares/auth");
 
 const router = express.Router();
 
@@ -9,6 +10,10 @@ const userController = require("../../../controllers/user/user.controller");
 router.post("/", userController.addUser);
 
 // get all users
-router.get("/get_users", userController.getAllUsers);
+router.get(
+  "/get_users",
+  authorize("manager", "admin"),
+  userController.getAllUsers
+);
 
 module.exports = router;
