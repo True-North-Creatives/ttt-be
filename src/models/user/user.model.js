@@ -3,9 +3,27 @@ const { toJSON } = require("../plugins");
 
 mongoose.set("useFindAndModify", false);
 const UserSchema = new mongoose.Schema({
-  name: {
+  payment: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "payment",
+    },
+  ],
+  firstName: {
     type: String,
     required: true,
+  },
+  lastName: {
+    type: String,
+    required: true,
+  },
+  displayName: {
+    type: String,
+    required: false,
+  },
+  profileImageUrl: {
+    type: String,
+    required: false,
   },
   email: {
     type: String,
@@ -13,25 +31,29 @@ const UserSchema = new mongoose.Schema({
   },
   age: {
     type: Number,
-    required: true,
+    required: false,
   },
   gender: {
     type: String,
-    required: true,
+    required: false,
   },
   dateJoined: {
     type: Date,
     default: Date.now,
   },
-  plan: {
+  subscriptionType: {
     type: String,
     required: true,
   },
-  subscription: {
-    type: String,
+  isSubscribed: {
+    type: Boolean,
     required: true,
   },
   place: {
+    type: String,
+    required: true,
+  },
+  SignedInUsing: {
     type: String,
     required: true,
   },
