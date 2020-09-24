@@ -6,11 +6,10 @@ const createPayment = {
     userId: Joi.string().required(),
     transactionId: Joi.string().required(),
     transactionMethod: Joi.string().required(),
-    paidDate: Joi.date().required()
+    paidDate: Joi.date().required(),
   }),
 };
 
 module.exports = {
-    createPayment,
-  };
-  
+  createPayment,
+};
