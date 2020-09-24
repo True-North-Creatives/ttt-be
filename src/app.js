@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const httpStatus = require("http-status");
-const bodyParser = require("body-parser");
 const config = require("./config/config");
 const morgan = require("./config/morgan");
 const routes = require("./routes/v1");
