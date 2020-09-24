@@ -37,14 +37,17 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  // On Successful SignUp
   dateJoined: {
     type: Date,
     default: Date.now,
   },
+  // subscriptionType: monthly, annually
   subscriptionType: {
     type: String,
     required: true,
   },
+  // On Payment Success make isSubscribed as true
   isSubscribed: {
     type: Boolean,
     required: true,
@@ -53,6 +56,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  // SignedInUsing: Google, Facebook
   SignedInUsing: {
     type: String,
     required: true,
