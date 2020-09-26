@@ -46,6 +46,7 @@ const ExerciseSchema = new mongoose.Schema(
   },
   {
     timestamps: true,
+    collection: "exercise",
   }
 );
 
