@@ -5,7 +5,7 @@ const userService = require("../../services/user/user.service");
 
 const addUser = catchAsync(async (req, res) => {
   const user = await userService.addUser(req.body);
-  res.status(httpStatus.OK).send(user);
+  res.status(httpStatus.OK).send({ userId: user._id });
 });
 
 const getAllUsers = catchAsync(async (req, res) => {

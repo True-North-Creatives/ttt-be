@@ -25,6 +25,14 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.options("*", cors());
 
+app.get("/", (req, res) => {
+  res.status(httpStatus.OK).send("Time to train");
+});
+
+app.get("/api", (req, res) => {
+  res.status(httpStatus.OK).send("healthy");
+});
+
 // v1 api routes
 app.use("/api/v1", routes);
 
