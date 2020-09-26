@@ -40,11 +40,11 @@ const getWODById = async ({ id, collection }) => {
   return wod;
 };
 
-// const deleteExercise = async ({ id }) => {
-//   const exercise = await ExerciseModel.findByIdAndRemove(id);
-//   if (!exercise) throw new ApiError(httpStatus.NOT_FOUND, "Exercise not found");
-//   return exercise;
-// };
+const deleteWOD = async ({ id, collection }) => {
+  const wod = await WODModel[collection].findByIdAndRemove(id);
+  if (!wod) throw new ApiError(httpStatus.NOT_FOUND, "WOD not found");
+  return wod;
+};
 
 module.exports = {
   addWODs,
@@ -52,5 +52,5 @@ module.exports = {
   updateWOD,
   getWODById,
   // getExercises,
-  // deleteExercise,
+  deleteWOD,
 };

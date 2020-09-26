@@ -36,4 +36,6 @@ router.post(
   workoutController.updateStatus
 );
 
+router.delete("/:id/:collection", workoutController.deleteWOD);
+
 module.exports = router;
