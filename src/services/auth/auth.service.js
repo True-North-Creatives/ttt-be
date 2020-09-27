@@ -1,7 +1,7 @@
 const httpStatus = require("http-status");
 const jwt = require("jsonwebtoken");
-const UserModel = require("../models/user/user.model");
-const ApiError = require("./ApiError");
+const UserModel = require("../../models/user/user.model");
+const ApiError = require("../../utils/ApiError");
 
 const login = async (payload) => {
   const { email } = payload;
