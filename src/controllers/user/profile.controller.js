@@ -13,11 +13,6 @@ const updateProfile = catchAsyc(async (req, res) => {
   res.status(httpStatus.OK).send(profile);
 });
 
-const updateBody = catchAsyc(async (req, res) => {
-  const profile = await profileService.updateBody(req.body);
-  res.status(httpStatus.OK).send(profile);
-});
-
 const getUserProfile = catchAsyc(async (req, res) => {
   const profile = await profileService.getUserProfile(req.params);
   res.status(httpStatus.OK).send(profile);
@@ -26,6 +21,5 @@ const getUserProfile = catchAsyc(async (req, res) => {
 module.exports = {
   createProfile,
   updateProfile,
-  updateBody,
   getUserProfile,
 };

@@ -29,4 +29,27 @@ const WOD_PLANS = {
   },
 };
 
-module.exports = { WOD_PLANS };
+const MOD_PLANS = {
+  MASS_GAINER: {
+    title: "Mass Gainer",
+    collection: "massGainer",
+  },
+  MUSCLE_BUILDING: {
+    title: "Muscle building (Moderate Carbs)",
+    collection: "muscleBuilding",
+  },
+  GENERAL_HEALTH_MAINTENANCE: {
+    title: "General Health Maintenance",
+    collection: "general",
+  },
+  FAT_LOSS: {
+    title: "Fat Loss (Low carb Diet)",
+    collection: "fatLoss",
+  },
+  KETO: {
+    title: "Keto",
+    collection: "keto",
+  },
+};
+
+module.exports = { WOD_PLANS, MOD_PLANS };

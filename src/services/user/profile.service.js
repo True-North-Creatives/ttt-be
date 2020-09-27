@@ -22,14 +22,6 @@ const updateProfile = async (payload) => {
   return profile;
 };
 
-const updateBody = async (payload) => {
-  const profile = await ProfileModel.findByIdAndUpdate(
-    { _id: payload.id },
-    { ...payload }
-  );
-  return profile;
-};
-
 const getUserProfile = async ({ userId }) => {
   const profile = await ProfileModel.findOne({ user: userId }).populate(
     "user",
@@ -42,6 +34,5 @@ const getUserProfile = async ({ userId }) => {
 module.exports = {
   createProfile,
   updateProfile,
-  updateBody,
   getUserProfile,
 };

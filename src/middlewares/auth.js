@@ -1,17 +1,23 @@
 const httpStatus = require("http-status");
+const jwt = require("jsonwebtoken");
+const { roleRights } = require("../config/roles");
 
-const ApiError = require("../utils/ApiError");
-
-const authorize = (...roles) => {
-  return (req, res, next) => {
-    if (!roles.includes(req.user.role)) {
-      return new ApiError(
-        httpStatus.FORBIDDEN,
-        "This User not is not authorized to access this route"
-      );
-    }
-    next();
-  };
+const getRoles = (req) => {
+  const refreshToken = req.cookies.rt;
+  const payload = jwt.decode(refreshToken);
+  return payload.role;
 };
 
-module.exports = { authorize };
+const authorize = (route) => (req, res, next) => {
+  if (
+    getRoles(req).filter((role) => roleRights.get(role).includes(route))
+      .length === 0
+  ) {
+    return res
+      .status(httpStatus.UNAUTHORIZED)
+      .send({ message: "Action unauthorized" });
+  }
+  return next();
+};
+
+module.exports = authorize;
