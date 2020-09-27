@@ -17,6 +17,11 @@ const getPlanById = catchAsync(async (req, res) => {
   res.status(httpStatus.OK).send(plan);
 });
 
+const deleteDayPlanById = catchAsync(async (req, res) => {
+  const plan = await plannerService.deleteDayPlanById(req.params);
+  res.status(httpStatus.OK).send(plan);
+});
+
 const updatePlan = catchAsync(async (req, res) => {
   const plan = await plannerService.updatePlanById(req.body);
   res.status(httpStatus.CREATED).send(plan);
@@ -27,4 +32,5 @@ module.exports = {
   getPlan,
   getPlanById,
   updatePlan,
+  deleteDayPlanById,
 };

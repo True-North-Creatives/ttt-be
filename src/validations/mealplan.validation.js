@@ -2,7 +2,7 @@ const Joi = require("joi");
 
 const createDayPlan = {
   body: Joi.object().keys({
-    category: Joi.string().required(),
+    collection: Joi.string().required(),
     from: Joi.string().required(),
     to: Joi.string().required(),
     week: Joi.number().required(),
@@ -34,7 +34,7 @@ const createDayPlan = {
 const updatePlan = {
   body: Joi.object().keys({
     id: Joi.string().required(),
-    category: Joi.string().required(),
+    collection: Joi.string().required(),
     from: Joi.string().required(),
     to: Joi.string().required(),
     week: Joi.number().required(),
@@ -65,7 +65,7 @@ const updatePlan = {
 
 const getDayPlan = {
   query: {
-    category: Joi.string().required(),
+    collection: Joi.string().required(),
     week: Joi.number().max(52).min(1),
   },
 };
@@ -73,6 +73,14 @@ const getDayPlan = {
 const getDayPlanById = {
   param: {
     id: Joi.string().required(),
+    collection: Joi.string().required(),
+  },
+};
+
+const deleteDayPlanById = {
+  param: {
+    id: Joi.string().required(),
+    collection: Joi.string().required(),
   },
 };
 
@@ -81,4 +89,5 @@ module.exports = {
   getDayPlan,
   getDayPlanById,
   updatePlan,
+  deleteDayPlanById,
 };
