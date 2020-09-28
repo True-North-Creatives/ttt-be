@@ -22,9 +22,25 @@ const deleteMenuItem = catchAsync(async (req, res) => {
   res.status(httpStatus.OK).send(menuItem);
 });
 
+const substituteArray = catchAsync(async (req, res) => {
+  const substitutes = await menuService.substituteArray(req.body);
+  res.status(httpStatus.OK).send(substitutes);
+});
+const getSwapItemList = catchAsync(async (req, res) => {
+  const swapList = await menuService.getSwapItemList(req.body);
+  res.status(httpStatus.OK).send(swapList);
+});
+const getSwapItemFullInfo = catchAsync(async (req, res) => {
+  const menuItem = await menuService.getSwapItemFullInfo(req.body);
+  res.status(httpStatus.OK).send(menuItem);
+});
+
 module.exports = {
   addMenuItem,
   updateMenuItem,
   getMenu,
   deleteMenuItem,
+  substituteArray,
+  getSwapItemList,
+  getSwapItemFullInfo,
 };

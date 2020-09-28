@@ -19,6 +19,10 @@ router.post(
   menuController.addMenuItem
 );
 
+router.put("/substitute", menuController.substituteArray);
+router.post("/swapItem", menuController.getSwapItemList);
+router.post("/swapItemInfo", menuController.getSwapItemFullInfo);
+
 router.delete(
   "/:id",
   validate(menuValidation.deleteFoodItem),
