@@ -3,52 +3,55 @@ const { toJSON } = require("../plugins");
 
 const ExerciseSchema = new mongoose.Schema(
   {
-    URL: {
+    url: {
       type: String,
       required: true,
     },
-    Title: {
+    title: {
       type: String,
       required: true,
     },
-    MainMuscleGroup: {
+    main_muscle_grp: {
       type: String,
       required: true,
     },
-    OtherMuscleGroups: {
+    other_muscle_grp: {
       type: String,
       required: true,
     },
-    DetailedMuscleGroup: {
+    detailed_muscle_group: {
       type: String,
       required: true,
     },
-    Type: {
+    type: {
       type: String,
       required: true,
     },
-    Mechanics: {
+    mechanics: {
       type: String,
       required: true,
     },
-    Equipment: {
+    equipment: {
       type: String,
       required: true,
     },
-    Difficulty: {
+    difficulty: {
       type: String,
       required: true,
     },
-    HowToPerformExercise: {
+    steps: {
       type: String,
       required: true,
     },
   },
-  { collection: "exercises" }
+  {
+    timestamps: true,
+    collection: "exercises",
+  }
 );
 
 ExerciseSchema.plugin(toJSON);
 
-const Exercises = mongoose.model("exercises", ExerciseSchema);
+const Exercises = mongoose.model("exercise", ExerciseSchema);
 
 module.exports = Exercises;

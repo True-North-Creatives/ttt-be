@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const httpStatus = require("http-status");
 const config = require("./config/config");
@@ -14,6 +15,8 @@ const app = express();
 app.use(express.json({ extended: false }));
 app.use(bodyParser.json());
 
+app.use(cookieParser());
+
 if (config.env !== "test") {
   app.use(morgan.successHandler);
   app.use(morgan.errorHandler);
@@ -25,16 +28,16 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.options("*", cors());
 
-app.get("/", (req, res) => {
-  res.status(httpStatus.OK).send("Time to train");
-});
+// app.get("/", (req, res) => {
+//   res.status(httpStatus.OK).send("Time to train");
+// });
+
+// v1 api routes
+app.use("/api/v1", routes);
 
 app.get("/api", (req, res) => {
   res.status(httpStatus.OK).send("healthy");
 });
-
-// v1 api routes
-app.use("/api/v1", routes);
 
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {

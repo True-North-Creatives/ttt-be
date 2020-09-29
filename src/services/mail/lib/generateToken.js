@@ -1,5 +1,6 @@
 const fs = require("fs");
 const readline = require("readline");
+const logger = require("../../../config/logger");
 
 const TOKEN_PATH = "./token.json";
 const SCOPES = [
@@ -12,7 +13,7 @@ function getNewToken(oAuth2Client) {
     access_type: "offline",
     scope: SCOPES,
   });
-  console.log("Authorize this app by visiting this url:", authUrl);
+  logger.info(`Authorize this app by visiting this url: ${authUrl}`);
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -20,12 +21,12 @@ function getNewToken(oAuth2Client) {
   rl.question("Enter the code from that page here: ", (code) => {
     rl.close();
     oAuth2Client.getToken(code, (err, token) => {
-      if (err) return console.error("Error retrieving access token", err);
+      if (err) return logger.error("Error retrieving access token", err);
       oAuth2Client.setCredentials(token);
       // Store the token to disk for later program executions
       fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err1) => {
-        if (err1) return console.error(err1);
-        console.log("Token stored to", TOKEN_PATH);
+        if (err1) return logger.error(err1);
+        logger.log("Token stored to", TOKEN_PATH);
       });
       return oAuth2Client;
     });

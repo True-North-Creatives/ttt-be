@@ -1,14 +1,14 @@
 const httpStatus = require("http-status");
-const MOD = require("../../models/diet/mod.model");
+const MODModel = require("../../models/diet/mod.model");
 const ApiError = require("../../utils/ApiError");
 
-const updateStatus = async ({ id, status }) => {
-  const paylaod = await MOD.findByIdAndUpdate(id, { status });
+const updateStatus = async ({ id, status, collection }) => {
+  const paylaod = await MODModel[collection].findByIdAndUpdate(id, { status });
   return { id: paylaod.id, status: paylaod.status };
 };
 
-const getStatus = async ({ category }) => {
-  const status = MOD.find({ category }, "week from to status").exec();
+const getStatus = async ({ collection }) => {
+  const status = MODModel[collection].find({}, "week from to status").exec();
   if (!status) {
     throw new ApiError(httpStatus.NOT_FOUND, "status not found");
   }

@@ -2,7 +2,7 @@ const Joi = require("joi");
 
 const getAllStatus = {
   query: {
-    category: Joi.string().required(),
+    collection: Joi.string().required(),
   },
 };
 
