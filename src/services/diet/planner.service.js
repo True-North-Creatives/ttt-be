@@ -3,7 +3,6 @@ const MODModel = require("../../models/diet/mod.model");
 const ApiError = require("../../utils/ApiError");
 
 const createDayPlan = async (payload) => {
-  console.log(payload.collection, "payload.collection");
   const plan = new MODModel[payload.collection](payload);
   await plan.save();
   return plan;
