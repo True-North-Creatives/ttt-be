@@ -132,6 +132,7 @@ const getSwapItemFullInfo = async (payload) => {
     ...MenuInfo,
     ingredient: menuItem.ingredient,
     _id: menuItem._id,
+    type:menuItem.type,
     units: menuItem.units,
   };
   return SwappedMenuItem;
