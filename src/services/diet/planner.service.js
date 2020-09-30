@@ -42,7 +42,7 @@ const getPlanById = async ({ id, collection }) => {
 };
 
 const deleteDayPlanById = async ({ id, collection }) => {
-  const plan = MODModel[collection].findById(id).exec();
+  const plan = await MODModel[collection].findById(id).exec();
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
@@ -54,6 +54,7 @@ const updatePlanById = async (payload) => {
   let plan = await MODModel[payload.collection].findByIdAndUpdate(payload.id, {
     ...payload,
   }).exec();
+
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
