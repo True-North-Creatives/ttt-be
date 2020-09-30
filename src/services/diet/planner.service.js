@@ -3,13 +3,14 @@ const MODModel = require("../../models/diet/mod.model");
 const ApiError = require("../../utils/ApiError");
 
 const createDayPlan = async (payload) => {
+  console.log(payload.collection, "payload.collection");
   const plan = new MODModel[payload.collection](payload);
   await plan.save();
   return plan;
 };
 
 const getPlan = async ({ collection, week }) => {
-  const plan = MODModel[collection].find({ collection, week }).exec();
+  const plan = await MODModel[collection].find({ week }).exec();
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
@@ -17,7 +18,7 @@ const getPlan = async ({ collection, week }) => {
 };
 
 const getPlanById = async ({ id, collection }) => {
-  const plan = MODModel[collection].findById(id).exec();
+  const plan = await MODModel[collection].findById(id).exec();
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
@@ -25,7 +26,7 @@ const getPlanById = async ({ id, collection }) => {
 };
 
 const deleteDayPlanById = async ({ id, collection }) => {
-  const plan = MODModel[collection].findById(id).exec();
+  const plan = await MODModel[collection].findById(id).exec();
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
@@ -33,7 +34,7 @@ const deleteDayPlanById = async ({ id, collection }) => {
 };
 
 const updatePlanById = async ({ id, collection }) => {
-  const plan = MODModel[collection].findByIdAndRemove(id).exec();
+  const plan = await MODModel[collection].findByIdAndRemove(id).exec();
   if (!plan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
