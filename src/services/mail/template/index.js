@@ -1,3 +1,4 @@
+/* eslint-disable*/
 const fs = require("fs");
 const MIMEText = require("mimetext");
 const library = require("./library");

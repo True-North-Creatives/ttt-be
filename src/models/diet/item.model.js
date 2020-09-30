@@ -1,9 +1,10 @@
 const { Schema } = require("mongoose");
+const mongoose = require("mongoose");
 
 const item = new Schema({
-  name: {
-    type: String,
-    required: true,
+  foodId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "food",
   },
   qty: {
     type: Number,

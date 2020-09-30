@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { google } = require("googleapis");
 const TOKEN_PATH = require("./lib/token.json");
 const CREDENTIALS = require("../../config/credentials.json");
