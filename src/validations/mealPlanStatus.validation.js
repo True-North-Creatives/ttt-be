@@ -7,12 +7,11 @@ const getAllStatus = {
 };
 
 const updateStatus = {
-  body: {
-    query: Joi.object().keys({
-      id: Joi.string().required(),
-      status: Joi.string().required(),
-    }),
-  },
+  body: Joi.object().keys({
+    week: Joi.number().required(),
+    status: Joi.string().required(),
+    collection: Joi.string().required(),
+  }),
 };
 
 module.exports = {
