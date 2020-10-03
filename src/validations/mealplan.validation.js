@@ -17,7 +17,7 @@ const createDayPlan = {
       meals: Joi.array().items({
         name: Joi.string().required(),
         items: Joi.array().items({
-          foodId: Joi.string().required(),
+          id: Joi.string().required(),
           qty: Joi.number().required(),
         }),
       }),

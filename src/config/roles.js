@@ -49,7 +49,7 @@ const route = {
   UPDATE_PROFILE: "updateProfile",
   GET_USER_PROFILE: "getUserProfile",
   GET_MY_PROFILE: "getMyProfile",
-  
+
   //   user: {
   CREATE_USER: "createUser",
   GET_ALL_USERS: "getAllUsers",

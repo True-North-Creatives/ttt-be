@@ -44,10 +44,12 @@ const Conversion = async (menuItem, quantity) => {
   return swapItem;
 };
 
-//function which is called from `substituteArray` func 
+//function which is called from `substituteArray` func
 //to update substitute array for the provided food item
 const makeSubstituteArray = async (menuItem, range) => {
-  const menuItems = await FoodModel.find({ ingredient: menuItem.ingredient }).exec();
+  const menuItems = await FoodModel.find({
+    ingredient: menuItem.ingredient,
+  }).exec();
   let substituteArray;
   for (let j = 0; j < menuItems.length; j++) {
     if (range === 2) {
@@ -132,7 +134,7 @@ const getSwapItemFullInfo = async (payload) => {
     ...MenuInfo,
     ingredient: menuItem.ingredient,
     _id: menuItem._id,
-    type:menuItem.type,
+    type: menuItem.type,
     units: menuItem.units,
   };
   return SwappedMenuItem;
@@ -140,11 +142,13 @@ const getSwapItemFullInfo = async (payload) => {
 
 // Returns list of all the food items without substituteArray
 const getMenu = async () => {
-  const menu = await FoodModel.find({}, { substitute: 0 }).exec();
+  const menu = await FoodModel.find().exec();
+  const ingredient = await FoodModel.find().distinct("ingredient").exec();
+  const type = await FoodModel.find().distinct("type").exec();
   if (!menu) {
     throw new ApiError(httpStatus.NOT_FOUND, "menu item not found");
   }
-  return menu;
+  return { menu, ingredient, type };
 };
 
 const addMenuItem = async (payload) => {

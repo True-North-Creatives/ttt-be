@@ -46,7 +46,7 @@ const foodSchema = new mongoose.Schema(
       },
     ],
   },
-  { collection: "food" }
+  { collection: "foodPool" }
 );
 
 foodSchema.plugin(toJSON);
