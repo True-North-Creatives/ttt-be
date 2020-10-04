@@ -25,7 +25,7 @@ const getPlan = async ({ collection, week }) => {
           logger.info("Resolving: "+ items[itemIndex].id);
         let menu = await FoodModel.findOne({ _id: items[itemIndex].id }).lean();
         items[itemIndex] = { ...items[itemIndex], ...menu };
-        logger.info("Resovled: " + JSON.stringify(items[itemIndex]));
+        logger.info("Resovled: " + JSON.stringify(items[itemIndex]) + " | menu= " + JSON.stringify(menu));
       }
     }
   }
