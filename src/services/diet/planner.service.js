@@ -22,8 +22,10 @@ const getPlan = async ({ collection, week }) => {
     for (let mealIndex = 0; mealIndex < plan.meals.length; mealIndex++) {
       const items = plan.meals[mealIndex].items;
       for (let itemIndex = 0; itemIndex < items.length; itemIndex++) {
+          logger.info("Resolving: "+ items[itemIndex].id);
         let menu = await FoodModel.findOne({ _id: items[itemIndex].id }).lean();
         items[itemIndex] = { ...items[itemIndex], ...menu };
+        logger.info("Resovled: " + JSON.stringify(items[itemIndex]));
       }
     }
   }
