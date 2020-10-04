@@ -8,6 +8,7 @@ const morgan = require("./config/morgan");
 const routes = require("./routes/v1");
 const { errorConverter, errorHandler } = require("./middlewares/error");
 const ApiError = require("./utils/ApiError");
+const logger = require("./config/logger");
 
 const app = express();
 
@@ -36,6 +37,7 @@ app.options("*", cors());
 app.use("/api/v1", routes);
 
 app.get("/api", (req, res) => {
+  logger.debug("Health Monitor");
   res.status(httpStatus.OK).send("healthy");
 });
 

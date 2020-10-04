@@ -16,7 +16,7 @@ const getPlan = async ({ collection, week }) => {
   if (!MODPlan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
-  logger.debug("Normalizing the response: " + JSON.stringify(MODPlan));
+  logger.info("Normalizing the response: " + JSON.stringify(MODPlan));
   for (let planIndex = 0; planIndex < MODPlan.plans.length; planIndex++) {
     const plan = MODPlan.plans[planIndex];
     for (let mealIndex = 0; mealIndex < plan.meals.length; mealIndex++) {
@@ -27,7 +27,7 @@ const getPlan = async ({ collection, week }) => {
       }
     }
   }
-  logger.debug("Normalized response: " + JSON.stringify(MODPlan));
+  logger.info("Normalized response: " + JSON.stringify(MODPlan));
   return MODPlan;
 };
 
