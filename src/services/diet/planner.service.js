@@ -6,6 +6,8 @@ const FoodModel = require("../../models/diet/food.model");
 const ApiError = require("../../utils/ApiError");
 const logger = require("./../../config/logger")
 const createDayPlan = async (payload) => {
+  const MODPlan = MODModel[payload.collection].findOne({week: payload.week});
+  if(MODPlan) return new ApiError(httpStatus.CONFLICT, "Duplicate: Plan already created");
   const plan = new MODModel[payload.collection](payload);
   await plan.save();
   return plan;
@@ -16,20 +18,16 @@ const getPlan = async ({ collection, week }) => {
   if (!MODPlan) {
     throw new ApiError(httpStatus.NOT_FOUND, "Plan not found");
   }
-  logger.info("Normalizing the response: " + JSON.stringify(MODPlan));
   for (let planIndex = 0; planIndex < MODPlan.plans.length; planIndex++) {
     const plan = MODPlan.plans[planIndex];
     for (let mealIndex = 0; mealIndex < plan.meals.length; mealIndex++) {
       const items = plan.meals[mealIndex].items;
       for (let itemIndex = 0; itemIndex < items.length; itemIndex++) {
-          logger.info("Resolving: "+ items[itemIndex].id);
         let menu = await FoodModel.findById( items[itemIndex].id ).lean();
-        items[itemIndex] = { ...items[itemIndex], ...menu };
-        logger.info("Resovled: " + JSON.stringify(items[itemIndex]) + " | menu= " + JSON.stringify(menu));
+        items[itemIndex] = { ...items[itemIndex], ...menu, food: `${menu.food} (${menu.conversion})` };
       }
     }
   }
-  logger.info("Normalized response: " + JSON.stringify(MODPlan));
   return MODPlan;
 };
 

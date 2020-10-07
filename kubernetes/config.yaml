@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: espalda
+  name: espalda
+  namespace: backend-ns
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: espalda
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: espalda
+    spec:
+      containers:
+        - image: gcr.io/espalda/github.com/true-north-creatives/ttt-be
+          imagePullPolicy: IfNotPresent
+          name: ttt-be-sha256-1
+---
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  labels:
+    app: espalda
+  name: espalda-hpa-gr6k
+  namespace: backend-ns
+spec:
+  maxReplicas: 5
+  metrics:
+    - resource:
+        name: cpu
+        targetAverageUtilization: 80
+      type: Resource
+  minReplicas: 1
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: espalda

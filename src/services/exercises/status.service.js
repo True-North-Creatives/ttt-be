@@ -11,6 +11,7 @@ const updateStatus = async ({ collection, status, id }) => {
 const getStatus = async ({ collection }) => {
   const status = await WOD[collection]
     .find({ date: { $gte: moment().format("YYYY-MM-DD") } }, "date status _id")
+    .sort({ date: 1 })
     .exec();
   if (!status) {
     throw new ApiError(httpStatus.NOT_FOUND, "status not found");
