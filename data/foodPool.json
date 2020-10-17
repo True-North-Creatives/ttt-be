@@ -1,0 +1,4804 @@
+[
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0ee"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "98% lean ground chicken",
+        "fat": "2.4",
+        "carb": "0",
+        "protein": "51.8",
+        "calories": "228.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0ef"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "99% lean ground turkey",
+        "fat": "2.4",
+        "carb": "0",
+        "protein": "48.2",
+        "calories": "214.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f0"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "98% lean ground turkey",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "48.2",
+        "calories": "224.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f1"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "98% lean ground beef",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "42.4",
+        "calories": "201.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f2"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Turkey Breast",
+        "fat": "3.5",
+        "carb": "3.5",
+        "protein": "42.4",
+        "calories": "215.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f3"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Chicken breast",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "45.9",
+        "calories": "215.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f4"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Deli turkey breast",
+        "fat": "3.5",
+        "carb": "7.1",
+        "protein": "31.8",
+        "calories": "187.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f5"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Deli ham",
+        "fat": "3.5",
+        "carb": "7.1",
+        "protein": "31.8",
+        "calories": "187.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f6"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Egg whites",
+        "fat": "0",
+        "carb": "1.2",
+        "protein": "23.5",
+        "calories": "98.8",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f7"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Tuna packed in water",
+        "fat": "3.5",
+        "carb": "3.5",
+        "protein": "35.3",
+        "calories": "187.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f8"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Tuna steak",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "51.8",
+        "calories": "238.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0f9"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Scallops",
+        "fat": "1.2",
+        "carb": "10.6",
+        "protein": "40",
+        "calories": "212.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0fa"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Shrimp",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "49.4",
+        "calories": "229.4",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0fb"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Crab",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "47.1",
+        "calories": "220",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0fc"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Mahi Mahi",
+        "fat": "2.4",
+        "carb": "0",
+        "protein": "47.1",
+        "calories": "209.4",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0fd"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Pollock",
+        "fat": "0",
+        "carb": "1.2",
+        "protein": "31.8",
+        "calories": "131.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0fe"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Clams",
+        "fat": "3.5",
+        "carb": "0",
+        "protein": "31.8",
+        "calories": "158.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c0ff"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Lobster",
+        "fat": "0",
+        "carb": "0",
+        "protein": "31.8",
+        "calories": "127.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c100"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Textured Vegetable Protein",
+        "fat": "0",
+        "carb": "58.8",
+        "protein": "100",
+        "calories": "635.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c101"
+        },
+        "ingredient": "Proteins",
+        "type": "Extra Lean Protein: 0-3 Grams of FAT",
+        "food": "Whey Isolate Protein Powder",
+        "fat": "3.5",
+        "carb": "36.5",
+        "protein": "143.5",
+        "calories": "751.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c102"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "95% lean ground beef",
+        "fat": "7.1",
+        "carb": "0",
+        "protein": "37.6",
+        "calories": "214.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c103"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Pork tenderloin",
+        "fat": "4.7",
+        "carb": "2.4",
+        "protein": "42.4",
+        "calories": "221.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c104"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Cod",
+        "fat": "5.9",
+        "carb": "0",
+        "protein": "24.7",
+        "calories": "151.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c105"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Tilapia",
+        "fat": "4.7",
+        "carb": "0",
+        "protein": "35.3",
+        "calories": "183.5",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c106"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Halibut",
+        "fat": "4.7",
+        "carb": "0",
+        "protein": "41.2",
+        "calories": "207.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c107"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Sea bass",
+        "fat": "4.7",
+        "carb": "0",
+        "protein": "37.6",
+        "calories": "192.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c108"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Ham",
+        "fat": "7.1",
+        "carb": "10.6",
+        "protein": "31.8",
+        "calories": "232.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c109"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Black bean burger",
+        "fat": "5.9",
+        "carb": "63.5",
+        "protein": "16.5",
+        "calories": "372.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10a"
+        },
+        "ingredient": "Proteins",
+        "type": "LEAN PROTEIN: 4-6 GRAMS OF FAT",
+        "food": "Soy protein powder",
+        "fat": "7.1",
+        "carb": "90.6",
+        "protein": "95.3",
+        "calories": "807.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10b"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Tofu",
+        "fat": "8.2",
+        "carb": "4.7",
+        "protein": "18.8",
+        "calories": "168.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10c"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Tempeh",
+        "fat": "10.6",
+        "carb": "23.5",
+        "protein": "37.6",
+        "calories": "340",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10d"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Flounder",
+        "fat": "10.6",
+        "carb": "0",
+        "protein": "30.6",
+        "calories": "217.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10e"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Oysters",
+        "fat": "10.6",
+        "carb": "14.1",
+        "protein": "24.7",
+        "calories": "250.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c10f"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Edamame, shelled",
+        "fat": "10.6",
+        "carb": "17.6",
+        "protein": "23.5",
+        "calories": "260",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c110"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Cottage cheese",
+        "fat": "10.6",
+        "carb": "11.8",
+        "protein": "28.2",
+        "calories": "255.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c111"
+        },
+        "ingredient": "Proteins",
+        "type": "MODERATE FAT PROTEIN: 7-9 GRAMS OF FAT",
+        "food": "Beef jerky",
+        "fat": "10.6",
+        "carb": "42.4",
+        "protein": "77.6",
+        "calories": "575.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c112"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "93% lean ground turkey",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "35.3",
+        "calories": "268.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c113"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "93% lean ground beef",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "41.2",
+        "calories": "291.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c114"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Pork ribs",
+        "fat": "12.9",
+        "carb": "0",
+        "protein": "42.4",
+        "calories": "285.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c115"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Chicken leg (drumstick)",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "31.8",
+        "calories": "254.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c116"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Turkey leg (drumstick)",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "38.8",
+        "calories": "282.4",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c117"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Tuna packed in olive oil",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "23.5",
+        "calories": "221.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c118"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Catfish",
+        "fat": "16.5",
+        "carb": "0",
+        "protein": "31.8",
+        "calories": "275.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c119"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Trout",
+        "fat": "14.1",
+        "carb": "0",
+        "protein": "36.5",
+        "calories": "272.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11a"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Anchovies",
+        "fat": "16.5",
+        "carb": "0",
+        "protein": "42.4",
+        "calories": "317.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11b"
+        },
+        "ingredient": "Proteins",
+        "type": "HIGH FAT PROTEIN: 10-12 GRAMS OF FAT",
+        "food": "Vegan protein powder",
+        "fat": "16.5",
+        "carb": "12.9",
+        "protein": "12.9",
+        "calories": "251.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11c"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "90% lean ground beef",
+        "fat": "20",
+        "carb": "0",
+        "protein": "41.2",
+        "calories": "344.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11d"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "85% lean ground beef",
+        "fat": "30.6",
+        "carb": "0",
+        "protein": "37.6",
+        "calories": "425.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11e"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "90% lean ground bison",
+        "fat": "20",
+        "carb": "0",
+        "protein": "41.2",
+        "calories": "344.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c11f"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "85% lean ground bison",
+        "fat": "31.8",
+        "carb": "0",
+        "protein": "37.6",
+        "calories": "436.5",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c120"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Whole eggs",
+        "fat": "20",
+        "carb": "0",
+        "protein": "23.5",
+        "calories": "274.1",
+        "units": "pcs",
+        "conversion": "4"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c121"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "New York strip steak",
+        "fat": "31.8",
+        "carb": "0",
+        "protein": "41.2",
+        "calories": "450.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c122"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Ribeye steak",
+        "fat": "35.3",
+        "carb": "0",
+        "protein": "38.8",
+        "calories": "472.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c123"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "sirloin steak",
+        "fat": "28.2",
+        "carb": "0",
+        "protein": "54.1",
+        "calories": "470.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c124"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Pulled pork",
+        "fat": "35.3",
+        "carb": "4.7",
+        "protein": "42.4",
+        "calories": "505.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c125"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Chicken wing",
+        "fat": "35.3",
+        "carb": "0",
+        "protein": "31.8",
+        "calories": "444.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c126"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Chicken thigh",
+        "fat": "16.5",
+        "carb": "0",
+        "protein": "48.2",
+        "calories": "341.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c127"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Lamb",
+        "fat": "36.5",
+        "carb": "0",
+        "protein": "42.4",
+        "calories": "497.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c128"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Mackerel",
+        "fat": "35.3",
+        "carb": "0",
+        "protein": "47.1",
+        "calories": "505.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c129"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Atlantic salmon",
+        "fat": "17.6",
+        "carb": "0",
+        "protein": "27.1",
+        "calories": "267.1",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12a"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Sardines in water",
+        "fat": "21.2",
+        "carb": "0",
+        "protein": "3.5",
+        "calories": "204.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12b"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Sardines in oil",
+        "fat": "21.2",
+        "carb": "0",
+        "protein": "42.4",
+        "calories": "360",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12c"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Turkey sausage",
+        "fat": "21.2",
+        "carb": "0",
+        "protein": "38.8",
+        "calories": "345.9",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12d"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Pork sausage",
+        "fat": "35.3",
+        "carb": "0",
+        "protein": "45.9",
+        "calories": "501.2",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12e"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Turkey bacon",
+        "fat": "32.9",
+        "carb": "0",
+        "protein": "27.1",
+        "calories": "404.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c12f"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Pork bacon",
+        "fat": "107.1",
+        "carb": "0",
+        "protein": "52.9",
+        "calories": "1175.3",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c130"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Salami",
+        "fat": "49.4",
+        "carb": "0",
+        "protein": "56.5",
+        "calories": "670.6",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c131"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Plant-based burger",
+        "fat": "20",
+        "carb": "16.5",
+        "protein": "34.1",
+        "calories": "382.4",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c132"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Plant-based ground meat",
+        "fat": "31.8",
+        "carb": "9.4",
+        "protein": "35.3",
+        "calories": "464.7",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c133"
+        },
+        "ingredient": "Proteins",
+        "type": "SUPER HIGH FAT PROTEIN: 13+ GRAMS OF FAT",
+        "food": "Protein bar",
+        "fat": "21.2",
+        "carb": "56.5",
+        "protein": "70.6",
+        "calories": "698.8",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c134"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Corn",
+        "fat": "2",
+        "carb": "35",
+        "protein": "4",
+        "calories": "174",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c135"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Sweet potatoes",
+        "fat": "9",
+        "carb": "41",
+        "protein": "4",
+        "calories": "261",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c136"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Red potatoes",
+        "fat": "0",
+        "carb": "39",
+        "protein": "5",
+        "calories": "176",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c137"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Acorn squash",
+        "fat": "0",
+        "carb": "21",
+        "protein": "29",
+        "calories": "200",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c138"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Butternut squash",
+        "fat": "0",
+        "carb": "23",
+        "protein": "2",
+        "calories": "100",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c139"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Pumpkin",
+        "fat": "0",
+        "carb": "13",
+        "protein": "27",
+        "calories": "160",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13a"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Yellow potatoes",
+        "fat": "0",
+        "carb": "35",
+        "protein": "4",
+        "calories": "156",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13b"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Parsnips",
+        "fat": "1",
+        "carb": "36",
+        "protein": "2",
+        "calories": "161",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13c"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Jicama",
+        "fat": "0",
+        "carb": "18",
+        "protein": "19",
+        "calories": "148",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13d"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Cannellini beans",
+        "fat": "1",
+        "carb": "25",
+        "protein": "15",
+        "calories": "169",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13e"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Kidney beans",
+        "fat": "0",
+        "carb": "28",
+        "protein": "12",
+        "calories": "160",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c13f"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Fava beans",
+        "fat": "1",
+        "carb": "36",
+        "protein": "16",
+        "calories": "217",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c140"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Lima beans",
+        "fat": "0",
+        "carb": "30",
+        "protein": "10",
+        "calories": "160",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c141"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "LOW CARBOHYDRATES: 0-41 GRAMS",
+        "food": "Black eyed peas",
+        "fat": "29",
+        "carb": "25",
+        "protein": "8",
+        "calories": "393",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c142"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Brown rice",
+        "fat": "2",
+        "carb": "51",
+        "protein": "5",
+        "calories": "242",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c143"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Wild rice",
+        "fat": "1",
+        "carb": "42",
+        "protein": "8",
+        "calories": "209",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c144"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Black beans",
+        "fat": "1",
+        "carb": "48",
+        "protein": "17",
+        "calories": "269",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c145"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "White rice",
+        "fat": "2",
+        "carb": "53",
+        "protein": "5",
+        "calories": "250",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c146"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Pinto beans",
+        "fat": "1",
+        "carb": "46",
+        "protein": "19",
+        "calories": "269",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c147"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Chickpeas",
+        "fat": "5",
+        "carb": "55",
+        "protein": "18",
+        "calories": "337",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c148"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "MODERATE CARBOHYDRATES: 42-56 GRAMS",
+        "food": "Navy beans",
+        "fat": "1",
+        "carb": "53",
+        "protein": "16",
+        "calories": "285",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c149"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "White bread",
+        "fat": "4",
+        "carb": "108",
+        "protein": "23",
+        "calories": "560",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14a"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Whole wheat bread",
+        "fat": "4",
+        "carb": "84",
+        "protein": "31",
+        "calories": "496",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14b"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Gluten-free white bread",
+        "fat": "8",
+        "carb": "89",
+        "protein": "6",
+        "calories": "452",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14c"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Gluten-free multi-grain broad",
+        "fat": "8",
+        "carb": "89",
+        "protein": "11",
+        "calories": "472",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14d"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "White bun",
+        "fat": "8",
+        "carb": "125",
+        "protein": "20",
+        "calories": "652",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14e"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Wheat bun",
+        "fat": "8",
+        "carb": "92",
+        "protein": "24",
+        "calories": "536",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c14f"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Whole wheat roll",
+        "fat": "3",
+        "carb": "98",
+        "protein": "18",
+        "calories": "491",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c150"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "White roll",
+        "fat": "6",
+        "carb": "112",
+        "protein": "18",
+        "calories": "574",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c151"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "English muffin",
+        "fat": "4",
+        "carb": "88",
+        "protein": "14",
+        "calories": "444",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c152"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Pita bread",
+        "fat": "0",
+        "carb": "103",
+        "protein": "18",
+        "calories": "484",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c153"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Sourdough bread",
+        "fat": "0",
+        "carb": "106",
+        "protein": "18",
+        "calories": "496",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c154"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "French bread",
+        "fat": "4",
+        "carb": "121",
+        "protein": "18",
+        "calories": "592",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c155"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Plain bagel",
+        "fat": "3",
+        "carb": "112",
+        "protein": "19",
+        "calories": "551",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c156"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Cornbread",
+        "fat": "19",
+        "carb": "85",
+        "protein": "14",
+        "calories": "567",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c157"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Naan",
+        "fat": "19",
+        "carb": "95",
+        "protein": "14",
+        "calories": "607",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c158"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Falafel balls",
+        "fat": "23",
+        "carb": "57",
+        "protein": "17",
+        "calories": "503",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c159"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Quinoa",
+        "fat": "12",
+        "carb": "130",
+        "protein": "28",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15a"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Lentils",
+        "fat": "29",
+        "carb": "120",
+        "protein": "52",
+        "calories": "949",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15b"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Flour tortilla",
+        "fat": "14",
+        "carb": "98",
+        "protein": "16",
+        "calories": "582",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15c"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Gluten-free tortilla",
+        "fat": "18",
+        "carb": "104",
+        "protein": "12",
+        "calories": "626",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15d"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Corn tortilla",
+        "fat": "4",
+        "carb": "81",
+        "protein": "8",
+        "calories": "392",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15e"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Lentil pasta",
+        "fat": "5",
+        "carb": "125",
+        "protein": "4",
+        "calories": "561",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c15f"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Chickpea pasta",
+        "fat": "12",
+        "carb": "132",
+        "protein": "43",
+        "calories": "808",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c160"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Kamut",
+        "fat": "5",
+        "carb": "130",
+        "protein": "25",
+        "calories": "665",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c161"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Muesli",
+        "fat": "17",
+        "carb": "131",
+        "protein": "23",
+        "calories": "769",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c162"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "HIGH CARBOHYDRATES: 54-132 GRAMS",
+        "food": "Regular potato chips",
+        "fat": "70",
+        "carb": "106",
+        "protein": "14",
+        "calories": "1110",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c163"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Whole wheat pasta",
+        "fat": "5",
+        "carb": "145",
+        "protein": "25",
+        "calories": "725",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c164"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "White pasta",
+        "fat": "4",
+        "carb": "145",
+        "protein": "25",
+        "calories": "716",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c165"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Rolled oats",
+        "fat": "15",
+        "carb": "135",
+        "protein": "25",
+        "calories": "775",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c166"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Quick oats",
+        "fat": "15",
+        "carb": "154",
+        "protein": "31",
+        "calories": "875",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c167"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Instant oats, Maple and Brown Sugar",
+        "fat": "9",
+        "carb": "153",
+        "protein": "19",
+        "calories": "769",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c168"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Instant oats, Strawberries and Cream",
+        "fat": "10",
+        "carb": "147",
+        "protein": "20",
+        "calories": "758",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c169"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Instant oats, Peaches and Cream",
+        "fat": "9",
+        "carb": "153",
+        "protein": "16",
+        "calories": "757",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16a"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Corn flakes cereal",
+        "fat": "0",
+        "carb": "171",
+        "protein": "14",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16b"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Rice chex cereal",
+        "fat": "4",
+        "carb": "170",
+        "protein": "15",
+        "calories": "776",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16c"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Fruity pebbles cereal",
+        "fat": "7",
+        "carb": "170",
+        "protein": "79",
+        "calories": "1059",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16d"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Raisin bran cereal",
+        "fat": "4",
+        "carb": "161",
+        "protein": "14",
+        "calories": "736",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16e"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Cinnamon toast crunch cereal",
+        "fat": "19",
+        "carb": "161",
+        "protein": "6",
+        "calories": "839",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c16f"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Cheerios",
+        "fat": "14",
+        "carb": "143",
+        "protein": "21",
+        "calories": "782",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c170"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Honey nut cheerios",
+        "fat": "11",
+        "carb": "157",
+        "protein": "14",
+        "calories": "783",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c171"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Honey bunches of oats cereal",
+        "fat": "6",
+        "carb": "163",
+        "protein": "13",
+        "calories": "758",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c172"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Shredded wheat cereal",
+        "fat": "4",
+        "carb": "146",
+        "protein": "15",
+        "calories": "680",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c173"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Cream of rice",
+        "fat": "0",
+        "carb": "141",
+        "protein": "21",
+        "calories": "648",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c174"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Cream of wheat",
+        "fat": "0",
+        "carb": "160",
+        "protein": "9",
+        "calories": "676",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c175"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Grits",
+        "fat": "0",
+        "carb": "157",
+        "protein": "14",
+        "calories": "684",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c176"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Granola",
+        "fat": "33",
+        "carb": "141",
+        "protein": "15",
+        "calories": "921",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c177"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Granola bar, crunchy",
+        "fat": "33",
+        "carb": "138",
+        "protein": "14",
+        "calories": "905",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c178"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Granola bar, chewy",
+        "fat": "29",
+        "carb": "142",
+        "protein": "8",
+        "calories": "861",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c179"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Couscous",
+        "fat": "4",
+        "carb": "147",
+        "protein": "27",
+        "calories": "732",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17a"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Buckwheat",
+        "fat": "7",
+        "carb": "143",
+        "protein": "27",
+        "calories": "743",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17b"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Spelt berries",
+        "fat": "7",
+        "carb": "142",
+        "protein": "27",
+        "calories": "739",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17c"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Pearl barley",
+        "fat": "4",
+        "carb": "156",
+        "protein": "20",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17d"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Bulgur",
+        "fat": "4",
+        "carb": "14",
+        "protein": "26",
+        "calories": "196",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17e"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Millot",
+        "fat": "79",
+        "carb": "150",
+        "protein": "219",
+        "calories": "2187",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c17f"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Biscuit",
+        "fat": "15",
+        "carb": "140",
+        "protein": "15",
+        "calories": "755",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c180"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Breadcrumbs",
+        "fat": "7",
+        "carb": "136",
+        "protein": "29",
+        "calories": "723",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c181"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Whole wheat crackers",
+        "fat": "32",
+        "carb": "136",
+        "protein": "221",
+        "calories": "1716",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c182"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Saltine crackers",
+        "fat": "19",
+        "carb": "150",
+        "protein": "13",
+        "calories": "823",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c183"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Pretzels",
+        "fat": "7",
+        "carb": "164",
+        "protein": "14",
+        "calories": "775",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c184"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Rice cakes",
+        "fat": "0",
+        "carb": "156",
+        "protein": "0",
+        "calories": "624",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c185"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Baked potato chips",
+        "fat": "24",
+        "carb": "153",
+        "protein": "16",
+        "calories": "892",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c186"
+        },
+        "ingredient": "STARCHY CARBOHYDRATES",
+        "type": "VERY HIGH CARBOHYDRATES: 133-174 GRAMS",
+        "food": "Rice Ramen",
+        "fat": "9",
+        "carb": "137",
+        "protein": "23",
+        "calories": "721",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c187"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Almond milk, unsweetened",
+        "fat": "2.6",
+        "carb": "0.9",
+        "protein": "0.9",
+        "calories": "29.8",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c188"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Soy milk, unsweetened",
+        "fat": "3.4",
+        "carb": "3.4",
+        "protein": "6",
+        "calories": "68.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c189"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Cashew milk, unsweetened",
+        "fat": "1.7",
+        "carb": "0.9",
+        "protein": "0.9",
+        "calories": "22.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18a"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Coconut milk, unsweetened",
+        "fat": "4.3",
+        "carb": "0",
+        "protein": "0",
+        "calories": "38.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18b"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Pea milk, unsweetened",
+        "fat": "4.3",
+        "carb": "0",
+        "protein": "6.8",
+        "calories": "65.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18c"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Macadamia milk, unsweetened",
+        "fat": "4.3",
+        "carb": "0.9",
+        "protein": "0.9",
+        "calories": "45.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18d"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Hemp milk, unsweetened",
+        "fat": "4.3",
+        "carb": "0",
+        "protein": "2.6",
+        "calories": "48.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18e"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Almond milk yogurt",
+        "fat": "15.3",
+        "carb": "5.1",
+        "protein": "5.1",
+        "calories": "178.7",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c18f"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Plain fat-free greek yogurt",
+        "fat": "0",
+        "carb": "7.7",
+        "protein": "18.7",
+        "calories": "105.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c190"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Half and Half coffee creamer",
+        "fat": "23.8",
+        "carb": "6.8",
+        "protein": "6.8",
+        "calories": "268.9",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c191"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Whole fat milk",
+        "fat": "6.8",
+        "carb": "10.2",
+        "protein": "6.8",
+        "calories": "129.4",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c192"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "2% fat milk",
+        "fat": "4.3",
+        "carb": "10.2",
+        "protein": "6.8",
+        "calories": "106.4",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c193"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "1% fat milk",
+        "fat": "2.6",
+        "carb": "11.1",
+        "protein": "6.8",
+        "calories": "94.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c194"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Non-fat milk",
+        "fat": "0",
+        "carb": "10.2",
+        "protein": "6.8",
+        "calories": "68.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c195"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Rice milk, unsweetened",
+        "fat": "2.6",
+        "carb": "9.4",
+        "protein": "0",
+        "calories": "60.4",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c196"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Chocolate almond milk",
+        "fat": "2.6",
+        "carb": "16.2",
+        "protein": "0.9",
+        "calories": "91.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c197"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Lactose-free, whole fat milk",
+        "fat": "6.8",
+        "carb": "11.1",
+        "protein": "6.8",
+        "calories": "132.8",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c198"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Lactose-free, 2% fat milk",
+        "fat": "4.3",
+        "carb": "11.1",
+        "protein": "6.8",
+        "calories": "109.8",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c199"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Lactose-free, non-fat milk",
+        "fat": "0",
+        "carb": "11.1",
+        "protein": "6.8",
+        "calories": "71.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19a"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Greek yogurt",
+        "fat": "0",
+        "carb": "11.9",
+        "protein": "6.8",
+        "calories": "74.9",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19b"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Cashew yogurt",
+        "fat": "8.5",
+        "carb": "11.1",
+        "protein": "3.4",
+        "calories": "134.5",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19c"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Coconut yogurt",
+        "fat": "5.1",
+        "carb": "11.1",
+        "protein": "0.9",
+        "calories": "93.6",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19d"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Light yogurt",
+        "fat": "0",
+        "carb": "17",
+        "protein": "6.8",
+        "calories": "95.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19e"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Regular yogurt",
+        "fat": "0",
+        "carb": "17.9",
+        "protein": "6",
+        "calories": "95.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c19f"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Vegan yogurt",
+        "fat": "5.1",
+        "carb": "29.8",
+        "protein": "2.6",
+        "calories": "175.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a0"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Frozen yogurt",
+        "fat": "4.3",
+        "carb": "32.3",
+        "protein": "5.1",
+        "calories": "188.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a1"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Icecream",
+        "fat": "11.9",
+        "carb": "25.5",
+        "protein": "3.4",
+        "calories": "223",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a2"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Oat milk, unsweetened",
+        "fat": "2.6",
+        "carb": "20.4",
+        "protein": "3.4",
+        "calories": "118.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a3"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Chocolate milk, 1% fat",
+        "fat": "2.6",
+        "carb": "17.9",
+        "protein": "6.8",
+        "calories": "121.7",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a4"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Chocolate soy milk",
+        "fat": "2.6",
+        "carb": "21.3",
+        "protein": "4.3",
+        "calories": "125.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a5"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "MODERATE CARBOHYDRATE: 21-38 GRAMS",
+        "food": "Non-dairy coffee creamer",
+        "fat": "6.8",
+        "carb": "27.2",
+        "protein": "0",
+        "calories": "170.2",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a6"
+        },
+        "ingredient": "MILK AND YOGURT DAIRY AND NON-DAIRY",
+        "type": "HIGH CARBOHYDRATE: 39-80 GRAMS",
+        "food": "Dairy coffee creamer",
+        "fat": "20.4",
+        "carb": "68.1",
+        "protein": "0",
+        "calories": "456.2",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a7"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Cheddar",
+        "fat": "70",
+        "carb": "10",
+        "protein": "50",
+        "calories": "870",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a8"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Swiss",
+        "fat": "60",
+        "carb": "0",
+        "protein": "50",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1a9"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "American",
+        "fat": "60",
+        "carb": "10",
+        "protein": "40",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1aa"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Mozzarella",
+        "fat": "50",
+        "carb": "10",
+        "protein": "60",
+        "calories": "730",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ab"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Colby jack",
+        "fat": "60",
+        "carb": "10",
+        "protein": "50",
+        "calories": "780",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ac"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Pepper jack",
+        "fat": "60",
+        "carb": "10",
+        "protein": "50",
+        "calories": "780",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ad"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Parmesan",
+        "fat": "40",
+        "carb": "0",
+        "protein": "80",
+        "calories": "680",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ae"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Provolone",
+        "fat": "50",
+        "carb": "0",
+        "protein": "50",
+        "calories": "650",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1af"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Gouda",
+        "fat": "50",
+        "carb": "0",
+        "protein": "50",
+        "calories": "650",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b0"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Feta",
+        "fat": "30",
+        "carb": "10",
+        "protein": "40",
+        "calories": "470",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b1"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Bleu",
+        "fat": "60",
+        "carb": "0",
+        "protein": "40",
+        "calories": "700",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b2"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Muenster",
+        "fat": "60",
+        "carb": "0",
+        "protein": "50",
+        "calories": "740",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b3"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Brie",
+        "fat": "40",
+        "carb": "0",
+        "protein": "40",
+        "calories": "520",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b4"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Ricotta",
+        "fat": "30",
+        "carb": "10",
+        "protein": "20",
+        "calories": "390",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b5"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Goat",
+        "fat": "50",
+        "carb": "0",
+        "protein": "30",
+        "calories": "570",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b6"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Vegan cheddar",
+        "fat": "50",
+        "carb": "40",
+        "protein": "0",
+        "calories": "610",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b7"
+        },
+        "ingredient": "CHEESES - DAIRY AND NON-DAIRY",
+        "type": "VERY LOW CARBOHYDRATE: 0-10 GRAMS",
+        "food": "Vegan mozzarella",
+        "fat": "40",
+        "carb": "50",
+        "protein": "10",
+        "calories": "600",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b8"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Zucchini",
+        "fat": "1",
+        "carb": "6",
+        "protein": "2",
+        "calories": "41",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1b9"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Spinach",
+        "fat": "1",
+        "carb": "7",
+        "protein": "6",
+        "calories": "61",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ba"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Cauliflower",
+        "fat": "1",
+        "carb": "10",
+        "protein": "4",
+        "calories": "65",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1bb"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Mushrooms",
+        "fat": "1",
+        "carb": "7",
+        "protein": "6",
+        "calories": "61",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1bc"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Asparagus",
+        "fat": "0",
+        "carb": "8",
+        "protein": "4",
+        "calories": "48",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1bd"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Normandy blend",
+        "fat": "0",
+        "carb": "8",
+        "protein": "3",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1be"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Iceberg lettuce",
+        "fat": "0",
+        "carb": "6",
+        "protein": "2",
+        "calories": "32",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1bf"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Romaine lettuce",
+        "fat": "1",
+        "carb": "7",
+        "protein": "2",
+        "calories": "45",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c0"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Yellow squash",
+        "fat": "0",
+        "carb": "7",
+        "protein": "2",
+        "calories": "36",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c1"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Cucumber",
+        "fat": "0",
+        "carb": "7",
+        "protein": "1",
+        "calories": "32",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c2"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Celery",
+        "fat": "0",
+        "carb": "6",
+        "protein": "1",
+        "calories": "28",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c3"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Radish",
+        "fat": "0",
+        "carb": "7",
+        "protein": "1",
+        "calories": "32",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c4"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Rhubarb",
+        "fat": "0",
+        "carb": "9",
+        "protein": "2",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c5"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Arugula",
+        "fat": "1",
+        "carb": "7",
+        "protein": "5",
+        "calories": "57",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c6"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Bok choy",
+        "fat": "0",
+        "carb": "7",
+        "protein": "5",
+        "calories": "48",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c7"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Mixed greens",
+        "fat": "0",
+        "carb": "6",
+        "protein": "5",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c8"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Swiss chard",
+        "fat": "0",
+        "carb": "7",
+        "protein": "6",
+        "calories": "52",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1c9"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Mustard greens",
+        "fat": "0",
+        "carb": "7",
+        "protein": "4",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ca"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Watercress",
+        "fat": "1",
+        "carb": "9",
+        "protein": "6",
+        "calories": "69",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1cb"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Green bell pepper",
+        "fat": "0",
+        "carb": "9",
+        "protein": "2",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1cc"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Orange bell pepper",
+        "fat": "0",
+        "carb": "9",
+        "protein": "2",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1cd"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Alfalfa sprouts",
+        "fat": "1",
+        "carb": "4",
+        "protein": "8",
+        "calories": "57",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ce"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Bean sprouts",
+        "fat": "0",
+        "carb": "4",
+        "protein": "1",
+        "calories": "20",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1cf"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Broccoli sprouts",
+        "fat": "0",
+        "carb": "6",
+        "protein": "6",
+        "calories": "48",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d0"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "VERY LOW CARBOHYDRATE: 1-10 GRAMS",
+        "food": "Leeks",
+        "fat": "0",
+        "carb": "15",
+        "protein": "2",
+        "calories": "68",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d1"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Broccoli",
+        "fat": "1",
+        "carb": "13",
+        "protein": "6",
+        "calories": "85",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d2"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Broccolini",
+        "fat": "1",
+        "carb": "12",
+        "protein": "4",
+        "calories": "73",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d3"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Spaghetti squash",
+        "fat": "1",
+        "carb": "14",
+        "protein": "1",
+        "calories": "69",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d4"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Eggplant",
+        "fat": "0",
+        "carb": "12",
+        "protein": "2",
+        "calories": "56",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d5"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Green beans",
+        "fat": "0",
+        "carb": "14",
+        "protein": "2",
+        "calories": "64",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d6"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Brussel sprouts",
+        "fat": "1",
+        "carb": "18",
+        "protein": "7",
+        "calories": "109",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d7"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Carrots",
+        "fat": "0",
+        "carb": "19",
+        "protein": "2",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d8"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Collard greens",
+        "fat": "0",
+        "carb": "12",
+        "protein": "9",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1d9"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Cabbage, all colors",
+        "fat": "0",
+        "carb": "12",
+        "protein": "3",
+        "calories": "60",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1da"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Kale",
+        "fat": "2",
+        "carb": "18",
+        "protein": "9",
+        "calories": "126",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1db"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Onion",
+        "fat": "0",
+        "carb": "19",
+        "protein": "2",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1dc"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Turnip greens",
+        "fat": "1",
+        "carb": "14",
+        "protein": "3",
+        "calories": "77",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1dd"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Red bell pepper",
+        "fat": "1",
+        "carb": "12",
+        "protein": "2",
+        "calories": "65",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1de"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Yellow bell pepper",
+        "fat": "1",
+        "carb": "16",
+        "protein": "2",
+        "calories": "81",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1df"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Okra",
+        "fat": "0",
+        "carb": "14",
+        "protein": "4",
+        "calories": "72",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e0"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Snow peas",
+        "fat": "0",
+        "carb": "15",
+        "protein": "6",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e1"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Scallions",
+        "fat": "0",
+        "carb": "15",
+        "protein": "4",
+        "calories": "76",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e2"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Turnips",
+        "fat": "0",
+        "carb": "13",
+        "protein": "2",
+        "calories": "60",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e3"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Beetroot",
+        "fat": "0",
+        "carb": "20",
+        "protein": "2",
+        "calories": "88",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e4"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Blend mixed vegetables",
+        "fat": "0",
+        "carb": "12",
+        "protein": "2",
+        "calories": "56",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e5"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Stir fry blend mixed vegetables",
+        "fat": "0",
+        "carb": "12",
+        "protein": "2",
+        "calories": "56",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e6"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Pasta sauce",
+        "fat": "3",
+        "carb": "19",
+        "protein": "3",
+        "calories": "115",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e7"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "LOW CARBOHYDRATE: 11-20 GRAMS",
+        "food": "Sauerkraut",
+        "fat": "0",
+        "carb": "11",
+        "protein": "0",
+        "calories": "44",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e8"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - VEGETABLES",
+        "type": "MODERATE CARBOHYDRATE: 21-56 GRAMS",
+        "food": "Artichoke",
+        "fat": "0",
+        "carb": "35",
+        "protein": "4",
+        "calories": "156",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1e9"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Tomatoes",
+        "fat": "0",
+        "carb": "8",
+        "protein": "2",
+        "calories": "40",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ea"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Strawberries",
+        "fat": "1",
+        "carb": "15",
+        "protein": "1",
+        "calories": "73",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1eb"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Grapefruit",
+        "fat": "0",
+        "carb": "16",
+        "protein": "1",
+        "calories": "68",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ec"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Blackberries",
+        "fat": "1",
+        "carb": "19",
+        "protein": "3",
+        "calories": "97",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ed"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Apricot",
+        "fat": "1",
+        "carb": "22",
+        "protein": "3",
+        "calories": "109",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ee"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Peaches",
+        "fat": "0",
+        "carb": "19",
+        "protein": "2",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ef"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Plums",
+        "fat": "1",
+        "carb": "23",
+        "protein": "1",
+        "calories": "105",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f0"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Kiwi",
+        "fat": "1",
+        "carb": "29",
+        "protein": "2",
+        "calories": "133",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f1"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Dragon Fruit",
+        "fat": "3",
+        "carb": "18",
+        "protein": "4",
+        "calories": "115",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f2"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Papaya",
+        "fat": "1",
+        "carb": "22",
+        "protein": "1",
+        "calories": "101",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f3"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Pineapple",
+        "fat": "0",
+        "carb": "26",
+        "protein": "1",
+        "calories": "108",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f4"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Orange",
+        "fat": "24",
+        "carb": "2",
+        "protein": "0",
+        "calories": "224",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f5"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Clementine orange",
+        "fat": "0",
+        "carb": "24",
+        "protein": "0",
+        "calories": "96",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f6"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Raspberries",
+        "fat": "1",
+        "carb": "24",
+        "protein": "2",
+        "calories": "113",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f7"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Blueberries",
+        "fat": "1",
+        "carb": "29",
+        "protein": "1",
+        "calories": "129",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f8"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Cherries",
+        "fat": "0",
+        "carb": "31",
+        "protein": "3",
+        "calories": "136",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1f9"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Apples",
+        "fat": "0",
+        "carb": "28",
+        "protein": "1",
+        "calories": "116",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1fa"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Pears",
+        "fat": "0",
+        "carb": "31",
+        "protein": "1",
+        "calories": "128",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1fb"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Mango",
+        "fat": "1",
+        "carb": "30",
+        "protein": "2",
+        "calories": "137",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1fc"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Honeydew melon",
+        "fat": "0",
+        "carb": "18",
+        "protein": "19",
+        "calories": "148",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1fd"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Guava",
+        "fat": "2",
+        "carb": "28",
+        "protein": "5",
+        "calories": "150",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1fe"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Pomegranate",
+        "fat": "2",
+        "carb": "37",
+        "protein": "3",
+        "calories": "178",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c1ff"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Grapes",
+        "fat": "0",
+        "carb": "37",
+        "protein": "1",
+        "calories": "152",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c200"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Figs",
+        "fat": "1",
+        "carb": "38",
+        "protein": "2",
+        "calories": "169",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c201"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Nectarine",
+        "fat": "1",
+        "carb": "29",
+        "protein": "3",
+        "calories": "137",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c202"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Tangerine",
+        "fat": "1",
+        "carb": "27",
+        "protein": "2",
+        "calories": "125",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c203"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Watermelon",
+        "fat": "0",
+        "carb": "15",
+        "protein": "1",
+        "calories": "64",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c204"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Cantaloupe",
+        "fat": "0",
+        "carb": "16",
+        "protein": "2",
+        "calories": "72",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c205"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Applesauce",
+        "fat": "0",
+        "carb": "23",
+        "protein": "0",
+        "calories": "92",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c206"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Fruit cocktail",
+        "fat": "0",
+        "carb": "20",
+        "protein": "1",
+        "calories": "84",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c207"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Starfruit",
+        "fat": "1",
+        "carb": "13",
+        "protein": "2",
+        "calories": "69",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c208"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "MODERATE CARBOHYDRATE: 42-56 GRAMS",
+        "food": "Bananas",
+        "fat": "1",
+        "carb": "46",
+        "protein": "2",
+        "calories": "201",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c209"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "MODERATE CARBOHYDRATE: 42-56 GRAMS",
+        "food": "Jackfruit",
+        "fat": "1",
+        "carb": "47",
+        "protein": "3",
+        "calories": "209",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20a"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Plantains",
+        "fat": "0",
+        "carb": "62",
+        "protein": "2",
+        "calories": "256",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20b"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Persimmons",
+        "fat": "1",
+        "carb": "67",
+        "protein": "2",
+        "calories": "285",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20c"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Medjool dates",
+        "fat": "0",
+        "carb": "150",
+        "protein": "4",
+        "calories": "616",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20d"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Raisins",
+        "fat": "1",
+        "carb": "157",
+        "protein": "5",
+        "calories": "657",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20e"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Prunes",
+        "fat": "0",
+        "carb": "122",
+        "protein": "5",
+        "calories": "508",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c20f"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Dried figs",
+        "fat": "2",
+        "carb": "128",
+        "protein": "7",
+        "calories": "558",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c210"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Dried apricots",
+        "fat": "0",
+        "carb": "124",
+        "protein": "6",
+        "calories": "520",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c211"
+        },
+        "ingredient": "FIBROUS CARBOHYDRATES - FRUITS",
+        "type": "HIGH CARBOHYDRATE: 57-160 GRAMS",
+        "food": "Grape jelly",
+        "fat": "0",
+        "carb": "130",
+        "protein": "0",
+        "calories": "520",
+        "units": "g",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c212"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Apple juice",
+        "fat": "0",
+        "carb": "23.8",
+        "protein": "0",
+        "calories": "95.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c213"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Cranberry juice",
+        "fat": "0",
+        "carb": "23.8",
+        "protein": "0",
+        "calories": "95.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c214"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Grape juice",
+        "fat": "0",
+        "carb": "32.3",
+        "protein": "0",
+        "calories": "129.4",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c215"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Mango juice",
+        "fat": "0",
+        "carb": "28.1",
+        "protein": "0.9",
+        "calories": "115.7",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c216"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Orange juice",
+        "fat": "0",
+        "carb": "21.3",
+        "protein": "0",
+        "calories": "85.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c217"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Pineapple juice",
+        "fat": "0",
+        "carb": "25.5",
+        "protein": "0",
+        "calories": "102.1",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c218"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "LOW CARBOHYDRATE: 0-41 GRAMS",
+        "food": "Pomegranate juice",
+        "fat": "0",
+        "carb": "34.9",
+        "protein": "0",
+        "calories": "139.6",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c219"
+        },
+        "ingredient": "FRUIT JUICE, UNSWEETENED",
+        "type": "HIGH CARBOHYDRATE: 120+ GRAMS",
+        "food": "Prune juice",
+        "fat": "0",
+        "carb": "103.8",
+        "protein": "4.3",
+        "calories": "432.3",
+        "units": "ml",
+        "conversion": ""
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21a"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Avocado",
+        "fat": "26.7",
+        "carb": "13.3",
+        "protein": "0",
+        "calories": "293.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21b"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Coconut",
+        "fat": "66.7",
+        "carb": "26.7",
+        "protein": "0",
+        "calories": "706.7",
+        "units": "tbsp",
+        "conversion": "33.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21c"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Walnuts",
+        "fat": "40",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "466.7",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21d"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Cashews",
+        "fat": "13.3",
+        "carb": "13.3",
+        "protein": "0",
+        "calories": "173.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21e"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Almonds",
+        "fat": "53.3",
+        "carb": "26.7",
+        "protein": "26.7",
+        "calories": "693.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c21f"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Pecans",
+        "fat": "66.7",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "706.7",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c220"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Pistachios",
+        "fat": "40",
+        "carb": "26.7",
+        "protein": "26.7",
+        "calories": "573.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c221"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Hummus",
+        "fat": "40",
+        "carb": "26.7",
+        "protein": "13.3",
+        "calories": "520",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c222"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Spinach dip",
+        "fat": "80",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "826.7",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c223"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Cream cheese",
+        "fat": "40",
+        "carb": "0",
+        "protein": "13.3",
+        "calories": "413.3",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c224"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Vegan cream cheese",
+        "fat": "66.7",
+        "carb": "26.7",
+        "protein": "13.3",
+        "calories": "760",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c225"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Hemp seeds",
+        "fat": "0",
+        "carb": "66.7",
+        "protein": "40",
+        "calories": "426.7",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c226"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Sunflower seeds",
+        "fat": "53.3",
+        "carb": "26.7",
+        "protein": "26.7",
+        "calories": "693.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c227"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Pumpkin seeds",
+        "fat": "66.7",
+        "carb": "13.3",
+        "protein": "40",
+        "calories": "813.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c228"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Chia seeds",
+        "fat": "53.3",
+        "carb": "53.3",
+        "protein": "40",
+        "calories": "853.3",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c229"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Olives",
+        "fat": "66.7",
+        "carb": "26.7",
+        "protein": "0",
+        "calories": "706.7",
+        "units": "tbsp",
+        "conversion": "22.22222222"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22a"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Sour cream, regular fat",
+        "fat": "40",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "466.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22b"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Sour cream, light",
+        "fat": "13.3",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "226.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22c"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Mayonnaise",
+        "fat": "146.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1320",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22d"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Italian dressing, light",
+        "fat": "13.3",
+        "carb": "26.7",
+        "protein": "0",
+        "calories": "226.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22e"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "French dressing",
+        "fat": "80",
+        "carb": "26.7",
+        "protein": "0",
+        "calories": "826.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c22f"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Balsamic dressing",
+        "fat": "26.7",
+        "carb": "40",
+        "protein": "0",
+        "calories": "400",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c230"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Pesto",
+        "fat": "80",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "826.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c231"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Alfredo sauce",
+        "fat": "40",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "466.7",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c232"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Buffalo sauce",
+        "fat": "26.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "240",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c233"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Avocado ranch",
+        "fat": "66.7",
+        "carb": "0",
+        "protein": "13.3",
+        "calories": "653.3",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c234"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "LOW FAT: 1-6 GRAMS",
+        "food": "Semi-sweet chocolate chips",
+        "fat": "66.7",
+        "carb": "120",
+        "protein": "13.3",
+        "calories": "1133.3",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c235"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Peanut butter",
+        "fat": "106.7",
+        "carb": "53.3",
+        "protein": "53.3",
+        "calories": "1386.7",
+        "units": "tbsp",
+        "conversion": "12.5"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c236"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Almond butter",
+        "fat": "120",
+        "carb": "40",
+        "protein": "53.3",
+        "calories": "1453.3",
+        "units": "tbsp",
+        "conversion": "12.5"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c237"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Sunflower butter",
+        "fat": "106.7",
+        "carb": "53.3",
+        "protein": "53.3",
+        "calories": "1386.7",
+        "units": "tbsp",
+        "conversion": "12.5"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c238"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Cashew butter",
+        "fat": "106.7",
+        "carb": "53.3",
+        "protein": "40",
+        "calories": "1333.3",
+        "units": "tbsp",
+        "conversion": "12.5"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c239"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Tahini (sunflower seed butter)",
+        "fat": "106.7",
+        "carb": "40",
+        "protein": "40",
+        "calories": "1280",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23a"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Margarine",
+        "fat": "146.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1320",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23b"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Mayonnaise",
+        "fat": "146.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1320",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23c"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Ranch dressing",
+        "fat": "93.3",
+        "carb": "13.3",
+        "protein": "13.3",
+        "calories": "946.7",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23d"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "MODERATE FAT: 7-11 GRAMS",
+        "food": "Oil and vinegar dressing",
+        "fat": "106.7",
+        "carb": "13.3",
+        "protein": "0",
+        "calories": "1013.3",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23e"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Avocado oil",
+        "fat": "186.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1680",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c23f"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Olive oil",
+        "fat": "186.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1680",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c240"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Coconut oil",
+        "fat": "186.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1680",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c241"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Ghee",
+        "fat": "200",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1800",
+        "units": "tbsp",
+        "conversion": "13.33333333"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c242"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Butter",
+        "fat": "160",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1440",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c243"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Vegan butter",
+        "fat": "146.7",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1320",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    },
+    {
+        "_id": {
+            "$oid": "5f76e48b1f12552084d7c244"
+        },
+        "ingredient": "FATS- OILS AND FATTY FOODS",
+        "type": "HIGH FAT: 12-16 GRAMS",
+        "food": "Avocado oil mayo",
+        "fat": "160",
+        "carb": "0",
+        "protein": "0",
+        "calories": "1440",
+        "units": "tbsp",
+        "conversion": "14.28571429"
+    }
+]

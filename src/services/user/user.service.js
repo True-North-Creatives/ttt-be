@@ -1,6 +1,7 @@
-const httpStatus = require("http-status");
-const User = require("../../models/user/user.model");
-const ApiError = require("../../utils/ApiError");
+const httpStatus = require('http-status');
+const bcrypt = require('bcrypt');
+const User = require('../../models/user/user.model');
+const ApiError = require('../../utils/ApiError');
 
 /**
  * Create a user
@@ -8,11 +9,11 @@ const ApiError = require("../../utils/ApiError");
  * @returns {Promise<User>}
  */
 const createUser = async (payload) => {
-  if (await User.isEmailTaken(payload.email)) {
-    throw new ApiError(httpStatus.BAD_REQUEST, "Email already taken");
-  }
-  const user = await User.create(payload);
-  return user;
+    if (await User.isEmailTaken(payload.email)) {
+        throw new ApiError(httpStatus.BAD_REQUEST, 'Email already taken');
+    }
+    const user = await User.create(payload);
+    return user;
 };
 
 /**
@@ -25,8 +26,8 @@ const createUser = async (payload) => {
  * @returns {Promise<QueryResult>}
  */
 const queryUsers = async (filter, options) => {
-  const users = await User.paginate(filter, options);
-  return users;
+    const users = await User.paginate(filter, options);
+    return users;
 };
 
 /**
@@ -35,8 +36,8 @@ const queryUsers = async (filter, options) => {
  * @returns {Promise<User>}
  */
 const getUserByFilter = async (filter) => {
-  const user = await User.findOne(filter);
-  return user;
+    const user = await User.findOne(filter);
+    return user;
 };
 
 /**
@@ -45,15 +46,20 @@ const getUserByFilter = async (filter) => {
  * @param {Object} updateBody
  * @returns {Promise<User>}
  */
-const updateUser = async (email, token) => {
-  const user = await User.findOneAndUpdate(
-    { email },
-    { refreshToken: token }
-  ).exec();
-  if (!user) {
-    throw new ApiError(httpStatus.NOT_FOUND, "User not found");
-  }
-  return user;
+const updateUser = async (email, payload) => {
+    const user = await User.findOneAndUpdate({ email }, { ...payload }).exec();
+    if (!user) {
+        throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
+    }
+    return user;
+};
+
+const updatePass = async (email, pass) => {
+    const res = await User.updateOne(
+        { email },
+        { pass: await bcrypt.hash(pass, 8) }
+    );
+    return res;
 };
 
 /**
@@ -62,30 +68,55 @@ const updateUser = async (email, token) => {
  * @returns {Promise<User>}
  */
 const deleteUserById = async (email) => {
-  const user = await getUserByFilter({ email });
-  if (!user) {
-    throw new ApiError(httpStatus.NOT_FOUND, "User not found");
-  }
-  await user.remove();
-  return user;
+    const user = await getUserByFilter({ email });
+    if (!user) {
+        throw new ApiError(httpStatus.NOT_FOUND, 'User not found');
+    }
+    await user.remove();
+    return user;
 };
 
 const userPresent = async (email) => {
-  const user = await User.isEmailTaken(email);
-  return user;
+    const user = await User.isEmailTaken(email);
+    return user;
 };
 
 const getAllUsers = async () => {
-  const user = await User.find();
-  return user;
+    const user = await User.find();
+    return user;
+};
+
+const setResetURL = async (email, token) => {
+    const user = await User.findOneAndUpdate(
+        { email },
+        { resetURL: token }
+    ).lean();
+    return user !== null;
+};
+
+const removeResetURL = async (email) => {
+    const user = await User.findOneAndUpdate(
+        { email },
+        { token: undefined }
+    ).exec();
+    return user !== null;
+};
+
+const verifyResetURL = async (email, token) => {
+    const { resetURL } = await User.findOne({ email }).lean();
+    return token === resetURL;
 };
 
 module.exports = {
-  createUser,
-  queryUsers,
-  getUserByFilter,
-  updateUser,
-  deleteUserById,
-  userPresent,
-  getAllUsers,
+    createUser,
+    queryUsers,
+    getUserByFilter,
+    updateUser,
+    deleteUserById,
+    userPresent,
+    getAllUsers,
+    setResetURL,
+    removeResetURL,
+    verifyResetURL,
+    updatePass,
 };

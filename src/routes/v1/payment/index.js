@@ -1,8 +1,8 @@
-const express = require("express");
+const express = require('express');
 
 const router = express.Router();
-const paymentRoutes = require("./payment");
+const paymentRoutes = require('./payment');
 
-router.use("/", paymentRoutes);
+router.use('/', paymentRoutes);
 
 module.exports = router;

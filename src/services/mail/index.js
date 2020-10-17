@@ -1,48 +1,55 @@
 /* eslint-disable */
-const { google } = require("googleapis");
-const TOKEN_PATH = require("./lib/token.json");
-const CREDENTIALS = require("../../config/credentials.json");
-const generateToken = require("./lib/generateToken");
-const Message = require("./template/index");
+const { google } = require('googleapis');
+const CREDENTIALS = require('../../config/credentials.json');
+const generateToken = require('./lib/generateToken');
+const Message = require('./template/index');
 
 const getServiceInstance = () => {
-  const { clientSecret, clientId, redirectUris } = CREDENTIALS.installed;
-  const oAuth2Client = new google.auth.OAuth2(
-    clientId,
-    clientSecret,
-    redirectUris[0]
-  );
-  oAuth2Client.setCredentials(TOKEN_PATH);
-  return oAuth2Client;
+    const { client_secret, client_id, redirect_uris } = CREDENTIALS.installed;
+    const oAuth2Client = new google.auth.OAuth2(
+        client_id,
+        client_secret,
+        redirect_uris[0]
+    );
+    try {
+        oAuth2Client.setCredentials(require('./lib/token.json'));
+    } catch (e) {
+        console.log('Token file missing');
+    }
+    return oAuth2Client;
 };
 
-const sendMail = (payload, name) => {
-  const auth = getServiceInstance();
-  const gmail = google.gmail({ version: "v1", auth });
+const sendMail = (payload, name, to) => {
+    const auth = getServiceInstance();
+    const gmail = google.gmail({ version: 'v1', auth });
 
-  const MIMEMessage = Message(payload, name);
-  MIMEMessage.setSender("sender@email.com");
-  MIMEMessage.setRecipient("gangulaar.icon@gmail.com");
-  MIMEMessage.setSubject("Its Time to Train 💪");
+    const MIMEMessage = Message(payload, name);
+    MIMEMessage.setSender('sender@email.com');
+    MIMEMessage.setRecipient(to);
 
-  gmail.users.messages.send(
-    {
-      userId: "me",
-      requestBody: {
-        raw: MIMEMessage.asEncoded(),
-      },
-    },
-    (err) => {
-      if (err) {
-        return { type: "ERROR", err };
-      }
-      return { type: "SUCCESS" };
-    }
-  );
+    /**
+     * @todo
+     * error is not propograted, need to fix this
+     */
+    return gmail.users.messages.send(
+        {
+            userId: 'me',
+            requestBody: {
+                raw: MIMEMessage.asEncoded(),
+            },
+        }
+        // (err) => {
+        //     console.log(err);
+        //     if (err) {
+        //         return { type: 'ERROR', err };
+        //     }
+        //     return { type: 'SUCCESS' };
+        // }
+    );
 };
 
 const authenticate = () => {
-  generateToken(getServiceInstance());
+    generateToken(getServiceInstance());
 };
 
 /**
@@ -54,6 +61,6 @@ const authenticate = () => {
  */
 
 module.exports = {
-  sendMail,
-  authenticate,
+    sendMail,
+    authenticate,
 };
