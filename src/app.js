@@ -22,9 +22,18 @@ if (config.env !== 'test') {
     app.use(morgan.successHandler);
     app.use(morgan.errorHandler);
 }
-
+const local = [
+    'https://localhost:8081',
+    'http://localhost:8082',
+    'http://localhost:8083',
+];
+const prod = [
+    'https://timetotrain.fit/',
+    ' https://app.timetotrain.fit/',
+    ' https://admin.timetotrain.fit/',
+];
 // enable cors
-app.use(cors({ credentials: true, origin: ['https://localhost:8081'] }));
+app.use(cors({ credentials: true, origin: [...local, ...prod] }));
 app.options('*', cors());
 app.use(express.json());
 app.use(bodyParser.json());
