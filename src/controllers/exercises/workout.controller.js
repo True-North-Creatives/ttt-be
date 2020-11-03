@@ -63,6 +63,12 @@ const deleteWOD = catchAsync(async (req, res) => {
     res.status(httpStatus.OK).send(wod);
 });
 
+const getSchedule = catchAsync(async (req, res) => {
+    const { query } = req;
+    const data = await workoutService.getSchedule(query);
+    res.status(data.status).json(data);
+});
+
 module.exports = {
     addWorkout,
     getWOD,
@@ -72,4 +78,5 @@ module.exports = {
     getWODById,
     // getExercises,
     deleteWOD,
+    getSchedule,
 };

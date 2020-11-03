@@ -49,6 +49,76 @@ const deleteWOD = async ({ id, collection }) => {
     return wod;
 };
 
+const getDatesBetweenDates = (startDate, endDate) => {
+    let dates = [];
+    const theDate = new Date(startDate);
+    while (theDate < endDate) {
+        dates = [...dates, new Date(theDate)];
+        theDate.setDate(theDate.getDate() + 1);
+    }
+    dates = [...dates, endDate];
+    return dates;
+};
+
+function mapSchedule(dates, workouts) {
+    return dates.map((date) => {
+        const dateString = new Intl.DateTimeFormat('en-IN', {
+            weekday: 'short',
+            month: 'short',
+            day: 'numeric',
+        }).format(date);
+        const workout = workouts.find(
+            (wk) => new Date(wk.date).getTime() === date.getTime()
+        );
+
+        if (workout) {
+            const { _doc: doc } = workout;
+            return {
+                workout: doc._id,
+                title: doc.displayName,
+                date,
+                dateString,
+            };
+        }
+        return {
+            date,
+            dateString,
+            title: 'rest',
+        };
+    });
+}
+
+const getDates = (date, days) => {
+    const startDate = new Date(date);
+    startDate.setDate(startDate.getDate() - days);
+    const endDate = new Date(date);
+    endDate.setDate(endDate.getDate() + days);
+    return {
+        startDate,
+        endDate,
+    };
+};
+
+const getSchedule = async (query) => {
+    const { date, collection } = query;
+    const days = parseInt(query.days, 10) || 3;
+    const { startDate, endDate } = getDates(date, days);
+    const dates = getDatesBetweenDates(startDate, endDate);
+    const workouts = await WODModel[collection].find(
+        {
+            status: 'PUBLISHED',
+            date: { $gte: startDate, $lte: endDate },
+        },
+        { displayName: 1, date: 1, _id: 1 }
+    );
+    const schedule = mapSchedule(dates, workouts);
+    return {
+        status: httpStatus.OK,
+        schedule,
+        // workouts,
+    };
+};
+
 module.exports = {
     addWODs,
     getWOD,
@@ -56,4 +126,5 @@ module.exports = {
     getWODById,
     // getExercises,
     deleteWOD,
+    getSchedule,
 };

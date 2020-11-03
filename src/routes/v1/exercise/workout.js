@@ -33,6 +33,8 @@ router.get(
     workoutController.getWOD
 );
 
+router.get('/schedule', workoutController.getSchedule);
+
 router.get(
     '/status',
     authorize(route.GET_WOD_STATUS),
