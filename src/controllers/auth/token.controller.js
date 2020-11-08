@@ -48,6 +48,12 @@ const authenticate = catchAsync(async (req, res) => {
             message: 'Unknown user, Please signup before login',
         });
     }
+
+    // check if payment is done
+    if (!userService.isSubscriptionActive(user)) {
+        return res.status(httpStatus.OK).send(errorCode[104]);
+    }
+
     const accessToken = req.cookies.at;
     const refreshToken = req.cookies.rt;
 

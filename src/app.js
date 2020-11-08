@@ -28,9 +28,9 @@ const local = [
     'http://localhost:8083',
 ];
 const prod = [
-    'https://timetotrain.fit/',
-    ' https://app.timetotrain.fit/',
-    ' https://admin.timetotrain.fit/',
+    'https://timetotrain.fit',
+    'https://app.timetotrain.fit',
+    'https://admin.timetotrain.fit',
 ];
 // enable cors
 app.use(cors({ credentials: true, origin: [...local, ...prod] }));

@@ -2,6 +2,7 @@ const httpStatus = require('http-status');
 const bcrypt = require('bcrypt');
 const User = require('../../models/user/user.model');
 const ApiError = require('../../utils/ApiError');
+const roles = require('../../config/roles');
 
 /**
  * Create a user
@@ -107,6 +108,10 @@ const verifyResetURL = async (email, token) => {
     return token === resetURL;
 };
 
+const isSubscriptionActive = (user) => {
+    return user.role.includes(roles.ROLES.Default);
+};
+
 module.exports = {
     createUser,
     queryUsers,
@@ -119,4 +124,5 @@ module.exports = {
     removeResetURL,
     verifyResetURL,
     updatePass,
+    isSubscriptionActive,
 };
