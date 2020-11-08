@@ -7,7 +7,6 @@ const config = require('./config/config');
 const morgan = require('./config/morgan');
 const routes = require('./routes/v1');
 const { errorConverter, errorHandler } = require('./middlewares/error');
-const ApiError = require('./utils/ApiError');
 const logger = require('./config/logger');
 
 const app = express();
@@ -51,8 +50,8 @@ app.get('/api', (req, res) => {
 });
 
 // send back a 404 error for any unknown api request
-app.use((req, res, next) => {
-    next(new ApiError(httpStatus.NOT_FOUND, 'Route Not found'));
+app.use((req, res) => {
+    res.send(404).send('Route not found');
 });
 
 // convert error to ApiError, if needed
