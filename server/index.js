@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const https = require('https');
+const http = require('http');
 const fs = require('fs');
 const app = require('./app');
 const config = require('./config/config');
@@ -8,11 +8,11 @@ const logger = require('./config/logger');
 const privateKey = fs.readFileSync('./server/certificate/key.pem', 'utf8');
 const certificate = fs.readFileSync('./server/certificate/cert.pem', 'utf8');
 const credentials = { key: privateKey, cert: certificate };
-const httpsServer = https.createServer(credentials, app);
+const httpServer = http.createServer(app);
 let server;
 mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
     logger.info('Connected to MongoDB');
-    server = httpsServer.listen(process.env.PORT || config.port, () => {
+    server = httpServer.listen(process.env.PORT || config.port, () => {
         logger.info(`Listening to port ${config.port}`);
     });
 });
