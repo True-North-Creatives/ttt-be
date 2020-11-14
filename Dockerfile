@@ -5,16 +5,15 @@ RUN mkdir -p /usr/ttt-be && \
 
 WORKDIR /usr/ttt-be
 
-COPY package.json package-lock.json ./
-
 USER node
+
+COPY package.json package-lock.json ./
 
 RUN npm install
 
 COPY . ./
 COPY --chown=node:node . .
 RUN npm run build
-
 
 EXPOSE 3000
 
