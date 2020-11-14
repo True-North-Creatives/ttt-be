@@ -15,6 +15,6 @@ COPY . ./
 #COPY --chown=node:node . .
 RUN npm run build
 
-EXPOSE 443
+EXPOSE 80
 
 CMD ["npm", "run", "start"]
