@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = require('./app');
 const config = require('./config/config');
 const logger = require('./config/logger');
-
+// openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
 const privateKey = fs.readFileSync('./src/certificate/key.pem', 'utf8');
 const certificate = fs.readFileSync('./src/certificate/cert.pem', 'utf8');
 const credentials = { key: privateKey, cert: certificate };
