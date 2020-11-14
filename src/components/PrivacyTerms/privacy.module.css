@@ -1,0 +1,30 @@
+.copyright {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+    font-family: MontserratLight;
+    font-size: 14px;
+}
+
+.copyright p {
+    margin: 4px;
+    font-family: MontserratLight;
+    font-size: 14px;
+}
+
+.copyright a:hover {
+    color: rgb(0, 215, 255);
+}
+/* 
+  @media only screen and (max-width: 600px) {
+    .copyright {
+        display: none;
+      }
+  } */

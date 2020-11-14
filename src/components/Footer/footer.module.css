@@ -1,0 +1,82 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    padding: 0rem 2rem;
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .footer {
+        bottom: 7rem;
+    }
+}
+.descriptionContainer {
+    text-align: left;
+    max-width: 300px;
+}
+
+.description {
+    color: white;
+    font-family: MontserratLight;
+    font-size: 16px;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .description {
+        font-size: 12px;
+    }
+}
+
+.strong {
+    color: rgb(0, 215, 255);
+    font-size: 16px;
+}
+
+.explore {
+    color: white;
+    font-family: MontserratMedium;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.button {
+    color: white;
+    background-color: rgb(0, 174, 239);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 28px;
+    font-family: MontserratExtraBoldItalic;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: white;
+    padding: 0;
+    text-align: end;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.price {
+    color: rgb(0, 215, 255);
+    font-family: MontserratMedium;
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        font-size: 16px;
+    }
+
+    .descriptionContainer {
+        text-align: left;
+        max-width: 150px;
+    }
+    .copyright {
+        display: none;
+    }
+}

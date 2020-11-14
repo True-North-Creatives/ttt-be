@@ -1,0 +1,102 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+.subContainer {
+    position: absolute;
+}
+
+.firstTitle {
+    font-size: 5rem;
+    color: white;
+    margin: 0;
+}
+
+.firstSubTitle {
+    font-size: 1.5rem;
+    color: rgb(0, 215, 255);
+}
+
+@media only screen and (max-width: 600px) {
+    .container img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+/* --------carousellsld------------------- */
+
+.container2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    bottom: 14px;
+    left: 50%;
+    cursor: pointer;
+}
+
+.chevron {
+    width: 2.1rem;
+    height: 0.48rem;
+    opacity: 0;
+    transform: scale(0.3);
+    animation: movechevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: movechevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: movechevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #2c3e50;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skewY(30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skewY(-30deg);
+}
+
+@keyframes movechevron {
+    25% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 1;
+        transform: translateY(2.28);
+    }
+    66.6% {
+        opacity: 1;
+        transform: translateY(3.12);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(4.8) scale(0.5);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container2 {
+        left: 42%;
+    }
+}

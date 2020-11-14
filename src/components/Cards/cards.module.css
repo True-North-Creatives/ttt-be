@@ -1,0 +1,145 @@
+.container {
+    margin: 0.2rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 0.4rem;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: MontserratExtraBoldItalic;
+    font-size: 21px;
+    padding: 5px;
+}
+
+.container img {
+    border-radius: 8px;
+    width: 220px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.imageOverlay {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: absolute;
+    width: 220px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.imageDetail {
+    background: rgba(0, 0, 0);
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 220px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+
+.imageDetail .card_info {
+    padding: 1rem;
+}
+
+.imageDetail .card_info h1 {
+    margin: 0;
+    font-size: 16px;
+    font-family: MontserratExtraBoldItalic;
+}
+.imageDetail .card_info p {
+    margin: 0.5rem 0rem;
+    font-size: 12px;
+    font-family: MontserratExtraBoldItalic;
+    line-height: 1.5rem;
+    text-align: left;
+    color: #00d1e6de;
+}
+
+.steps {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-family: MontserratExtraBoldItalic;
+}
+
+.steps li {
+    font-size: small;
+    margin: 0.3rem 0rem;
+}
+
+.imageDetail:hover {
+    border: 3px solid rgb(0, 174, 239);
+}
+
+.imageOverlay:hover {
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid rgb(0, 174, 239);
+}
+
+.imageOverlay:hover .preview {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0.5rem;
+    font-family: MontserratLight;
+    font-size: 16px;
+}
+
+.preview {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container img {
+        margin: 0rem 1rem;
+        width: 310px;
+        height: 420px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .imageOverlay {
+        width: 90%;
+        height: 100%;
+    }
+    .imageDetail {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .container img {
+        width: 285px;
+        height: 394px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .imageOverlay {
+        width: 90%;
+        height: 100%;
+    }
+    .imageDetail {
+        width: 90%;
+        height: 100%;
+    }
+}
