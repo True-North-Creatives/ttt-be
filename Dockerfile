@@ -11,7 +11,7 @@ USER node
 
 RUN yarn install --pure-lockfile
 
-RUN yarn install build
+RUN yarn build
 
 COPY --chown=node:node . .
 
