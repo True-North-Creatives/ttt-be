@@ -11,6 +11,8 @@ USER node
 
 RUN yarn install --pure-lockfile
 
+RUN yarn install build
+
 COPY --chown=node:node . .
 
 EXPOSE 3000
