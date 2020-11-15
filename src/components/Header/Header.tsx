@@ -128,10 +128,10 @@ export default function Header() {
             title: 'FAQs',
             link: '/faq',
         },
-        // {
-        //   title: "Login/Register",
-        //   link: "/",
-        // },
+        {
+          title: "Login/Register",
+          link: "/login",
+        },
     ];
 
     const ref = useRef(null);
@@ -205,12 +205,6 @@ export default function Header() {
                                 {item.title}
                             </NavLink>
                         ))}
-                        <a
-                            className={classes.item_list}
-                            href={`${process.env.REACT_APP_AUTH_URL}/`}
-                        >
-                            Login
-                        </a>
                     </List>
                     <div className={Classes.icons}>
                         <img
@@ -297,12 +291,14 @@ export default function Header() {
             >
                 FAQs
             </NavLink>
-            <a
+            <NavLink
+                activeClassName={Classes.linkActive}
                 className={Classes.link}
-                href={`${process.env.REACT_APP_AUTH_URL}/`}
+                to="/login"
+                exact
             >
                 Login / Register
-            </a>
+            </NavLink>
         </div>
     );
 }

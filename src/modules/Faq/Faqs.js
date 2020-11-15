@@ -1,11 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header/Header';
 import SocialButtons from '../../components/socialButtons/SocialButtons';
 import CustomAccordion from '../../components/CustomAccordion/CustomAccordion';
 
 import Classes from './faqs.module.css';
-import { redirectToRegister } from '../../utils/redirect';
 import PrivacyTerms from './../../components/PrivacyTerms';
 
 export default function Faqs() {
@@ -19,12 +19,12 @@ export default function Faqs() {
                 </div>
                 <div className={Classes.footer}>
                     <div>
-                        <button
+                        <Link
                             className={Classes.button}
-                            onClick={redirectToRegister}
+                            to='/register'
                         >
                             Join Now
-                        </button>
+                        </Link>
                         <h4 className={Classes.price}>INR 99/ MONTH</h4>
                     </div>
                 </div>

@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header/Header';
 import ImageCard from '../../components/Cards/ImageCard';
 import SocialButtons from '../../components/socialButtons/SocialButtons';
 
 import Classes from './services.module.css';
-import { redirectToRegister } from '../../utils/redirect';
 import PrivacyTerms from './../../components/PrivacyTerms';
+
 export default function Services() {
     let services = [
         {
@@ -133,12 +134,12 @@ export default function Services() {
                 </div>
                 <div className={Classes.footer}>
                     <div>
-                        <button
+                        <Link
                             className={Classes.button}
-                            onClick={redirectToRegister}
+                            to='/register'
                         >
                             Join Now
-                        </button>
+                        </Link>
                         <h4 className={Classes.price}>INR 99/ MONTH</h4>
                     </div>
                 </div>

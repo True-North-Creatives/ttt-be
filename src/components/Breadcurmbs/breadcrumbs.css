@@ -26,11 +26,11 @@
     background-color: #b94629 !important;
 }
 .complete li div:before {
-    border-color: #b94629  !important;
+    border-color: #b94629 !important;
     border-left-color: transparent;
 }
 .complete li div:after {
-    border-left-color: #b94629  !important;
+    border-left-color: #b94629 !important;
 }
 #breadcrumb li:first-child div {
     padding-left: 15px;

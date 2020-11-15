@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import Classes from './footer.module.css';
 import NextArrow from '../NextArrow';
-import { redirectToRegister } from './../../utils/redirect';
 interface props {
     para1?: string;
     para2?: string;
@@ -23,9 +22,9 @@ export default function Footer({ para1, para2, strong }) {
                 </Link>
             </div>
             <div>
-                <button className={Classes.button} onClick={redirectToRegister}>
+                <Link className={Classes.button} to="/register">
                     Join Now
-                </button>
+                </Link>
                 <h4
                     style={{ position: 'relative', top: -10 }}
                     className={Classes.price}

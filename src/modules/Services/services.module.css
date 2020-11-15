@@ -49,6 +49,7 @@
     font-size: 28px;
     text-transform: uppercase;
     position: relative;
+    text-decoration: none;
 }
 
 .price {
