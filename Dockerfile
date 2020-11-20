@@ -1,17 +1,19 @@
 FROM node:alpine
 
-RUN mkdir -p /usr/src/ttt-be && \
-    chown -R node:node /usr/src/ttt-be
+RUN mkdir -p /usr/ttt-be
+    #chown -R node:node /usr/ttt-be
 
-WORKDIR /usr/src/ttt-be
+WORKDIR /usr/ttt-be
 
-COPY package.json yarn.lock ./
+#USER node
 
-USER node
+COPY package.json package-lock.json ./
 
-RUN yarn install --pure-lockfile
+RUN npm install
 
-COPY --chown=node:node . .
+COPY . ./
+#COPY --chown=node:node . .
+RUN npm run build
 
 EXPOSE 3000
 

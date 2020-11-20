@@ -1,0 +1,60 @@
+.container {
+    position: absolute;
+    z-index: 2;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.linkActive {
+    color: rgb(0, 215, 255) !important;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: MontserratLight;
+    font-size: 16px;
+    margin: 0.4rem;
+    padding: 0.4rem;
+}
+
+.show {
+    display: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.icons_images {
+    max-width: 13%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    padding: 0;
+    font-size: 14px;
+    padding: 0.3rem;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .link {
+        display: none;
+    }
+    .show {
+        display: flex;
+        position: absolute;
+    }
+}

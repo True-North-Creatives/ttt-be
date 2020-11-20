@@ -1,7 +1,8 @@
-const mongoose = require('mongoose');
-const app = require('./app');
-const config = require('./config/config');
-const logger = require('./config/logger');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './app';
+import * as serviceWorker from './serviceWorker';
 
 let server;
 mongoose.set('debug', true);
@@ -11,29 +12,14 @@ mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
         logger.info(`Listening to port ${config.port}`);
     });
 });
+ReactDOM.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
 
-const exitHandler = () => {
-    if (server) {
-        server.close(() => {
-            logger.info('Server closed');
-            process.exit(1);
-        });
-    } else {
-        process.exit(1);
-    }
-};
-
-const unexpectedErrorHandler = (error) => {
-    logger.error(error);
-    exitHandler();
-};
-
-process.on('uncaughtException', unexpectedErrorHandler);
-process.on('unhandledRejection', unexpectedErrorHandler);
-
-process.on('SIGTERM', () => {
-    logger.info('SIGTERM received');
-    if (server) {
-        server.close();
-    }
-});
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

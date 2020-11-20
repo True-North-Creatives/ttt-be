@@ -1,0 +1,32 @@
+.container {
+    position: absolute;
+    width: 3%;
+    right: 2%;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.icons {
+    width: 68%;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.icons_images {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .link {
+        display: none;
+    }
+    .icons {
+        display: none;
+    }
+}
