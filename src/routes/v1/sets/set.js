@@ -7,7 +7,17 @@ const controllers = require('../../../controllers/sets');
 
 router
     .route('/')
+    .get(catchAsync(controllers.getSet))
+    .post(catchAsync(controllers.addSet))
+    .patch(catchAsync(controllers.updateWorkout));
+
+router.get('/history', catchAsync(controllers.calculate));
+
+router
+    .route('/:id')
     .get((req, res) => res.sendStatus(200))
-    .post(catchAsync(controllers.addSet));
+    .post(catchAsync(controllers.addSet))
+    .patch(catchAsync(controllers.updateSet))
+    .delete(catchAsync(controllers.deleteSet));
 
 module.exports = router;

@@ -33,7 +33,11 @@ router.get(
     workoutController.getWOD
 );
 
-router.get('/schedule', workoutController.getSchedule);
+router.get(
+    '/schedule',
+    validate(workoutValidation.getSchedule),
+    workoutController.getSchedule
+);
 
 router.get(
     '/status',

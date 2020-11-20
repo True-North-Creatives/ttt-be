@@ -75,8 +75,17 @@ const getWODById = {
     },
 };
 
+const getSchedule = {
+    query: {
+        date: Joi.date().iso().required(),
+        days: Joi.number().default(3).required(),
+        collection: Joi.string().required(),
+    },
+};
+
 module.exports = {
     addWOD,
     getWOD,
     getWODById,
+    getSchedule,
 };

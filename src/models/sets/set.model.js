@@ -6,6 +6,10 @@ const SetSchema = new Schema(
             type: String,
             required: true,
         },
+        exercise: {
+            type: String,
+            required: true,
+        },
         reps: {
             type: Number,
             required: true,
@@ -17,21 +21,16 @@ const SetSchema = new Schema(
         notes: {
             type: String,
         },
-        // unit: {
-        //     type: String,
-        //     required: true,
-        //     enum: ['kg', 'lb'],
-        // },
+        unit: {
+            type: String,
+            default: 'kg',
+        },
     },
     { _id: false }
 );
 
-const ExerciseSchema = new Schema(
+const WorkoutSchema = new Schema(
     {
-        exercise: {
-            type: String,
-            required: true,
-        },
         user: {
             type: String,
             required: true,
@@ -40,8 +39,20 @@ const ExerciseSchema = new Schema(
             type: String,
             required: true,
         },
-        day: {
+        workoutName: {
+            type: String,
+            required: true,
+        },
+        date: {
             type: Date,
+            required: true,
+        },
+        minutes: {
+            type: Number,
+            default: 0,
+        },
+        muscle: {
+            type: String,
             required: true,
         },
         sets: {
@@ -52,6 +63,12 @@ const ExerciseSchema = new Schema(
     { collection: 'sets' }
 );
 
-ExerciseSchema.index({ user: 1, exercise: 1, workout: 1, 'sets.id': 1 });
+WorkoutSchema.index({
+    user: 1,
+    exercise: 1,
+    workout: 1,
+    'sets.id': 1,
+    'set.exercise': 1,
+});
 
-module.exports = model('Set', ExerciseSchema);
+module.exports = model('Set', WorkoutSchema);
