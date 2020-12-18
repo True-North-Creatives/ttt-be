@@ -1,10 +1,12 @@
 const { Schema, model } = require('mongoose');
 
+const { v4: uuid } = require('uuid');
+
 const SetSchema = new Schema(
     {
         id: {
             type: String,
-            required: true,
+            default: uuid,
         },
         exercise: {
             type: String,
@@ -20,10 +22,6 @@ const SetSchema = new Schema(
         },
         notes: {
             type: String,
-        },
-        unit: {
-            type: String,
-            default: 'kg',
         },
     },
     { _id: false }
@@ -54,6 +52,10 @@ const WorkoutSchema = new Schema(
         muscle: {
             type: String,
             required: true,
+        },
+        unit: {
+            type: String,
+            default: 'kg',
         },
         sets: {
             type: [SetSchema],

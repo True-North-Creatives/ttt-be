@@ -5,7 +5,7 @@ async function addSet(body) {
     if (set.unit !== 'kg') {
         // convert to kg
         set.weight = (set.weight / 2.205).toFixed(1);
-        set.unit = 'kg';
+        // set.unit = 'kg';
     }
     const result = await repo.updateOne(
         { user, workout, date },
@@ -41,7 +41,7 @@ async function updateSet(id, update) {
     if (update.unit !== 'kg') {
         // convert to kg
         update.weight = Number((update.weight / 2.205).toFixed(1));
-        update.unit = 'kg';
+        // update.unit = 'kg';
     }
     const workout = await repo.findOne({ 'sets.id': id }).lean();
     if (!workout) {
@@ -71,7 +71,18 @@ async function deleteSet(id) {
 
 async function getSet(query) {
     const { user, date, workout } = query;
-    const sets = await repo.findOne({ user, date: new Date(date), workout });
+    const setQuery = [{ $match: { user, date: new Date(date), workout } }];
+    if (query.group) {
+        setQuery.push({ $unwind: '$sets' });
+        // group sets by exercise
+        setQuery.push({
+            $group: {
+                _id: '$sets.exercise',
+                sets: { $push: '$sets' },
+            },
+        });
+    }
+    const sets = await repo.aggregate(setQuery);
     return {
         status: 200,
         sets,

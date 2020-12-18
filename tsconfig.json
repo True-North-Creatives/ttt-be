@@ -16,5 +16,5 @@
         "noEmit": true,
         "jsx": "react"
     },
-    "include": ["src"]
+    "include": ["src", "server/models/sets", "server/controllers/sets", "server/validations/set.validations.js", "server/services/sets", "server/routes/v1/sets"]
 }
