@@ -12,13 +12,19 @@ const BodyStat = new mongoose.Schema(
             type: String,
             required: true,
         },
+        value: {
+            type: Number,
+            required: true,
+        },
         unit: {
             type: String,
             required: true,
+            enum: ['kg', 'cm', '%'],
         },
-        units: {
-            type: [String],
+        conversion: {
+            type: String,
             required: true,
+            enum: ['lb', 'inch'],
         },
     },
     { _id: false }
@@ -45,5 +51,11 @@ const BodyStats = new mongoose.Schema(
     },
     { collection: 'bodyStats' }
 );
+
+BodyStats.index({
+    user: 1,
+    date: 1,
+    'stats.id': 1,
+});
 
 module.exports = mongoose.model('BodyStats', BodyStats);

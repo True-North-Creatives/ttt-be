@@ -10,6 +10,10 @@ const certificate = fs.readFileSync('./server/certificate/cert.pem', 'utf8');
 const credentials = { key: privateKey, cert: certificate };
 const httpServer = http.createServer(app);
 let server;
+
+
+mongoose.set('debug',true)
+
 mongoose.connect(config.mongoose.url, config.mongoose.options).then(() => {
     logger.info('Connected to MongoDB');
     server = httpServer.listen(process.env.PORT || config.port, () => {
