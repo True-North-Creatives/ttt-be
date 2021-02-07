@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+
 const httpStatus = require('http-status');
 const PaymentModel = require('../../models/payment/payment.model');
 const UserModel = require('../../models/user/user.model');
