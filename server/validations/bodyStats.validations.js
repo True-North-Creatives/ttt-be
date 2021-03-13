@@ -16,15 +16,17 @@ const addStats = {
     body: Joi.object().keys({
         user: Joi.string().required(),
         date: Joi.string().isoDate().required(),
-        stats: Joi.array().items(
-            Joi.object({
-                id: Joi.string().required(),
-                name: Joi.string().required(),
-                value: Joi.number().required(),
-                unit: Joi.string().equal('kg', 'lb', 'cm', '%'),
-                conversion: Joi.string(),
-            })
-        ),
+        stats: Joi.array()
+            .items(
+                Joi.object({
+                    id: Joi.string().required(),
+                    name: Joi.string().required(),
+                    value: Joi.number().required(),
+                    unit: Joi.string().equal('kg', 'lb', 'cm', '%'),
+                    conversion: Joi.string(),
+                })
+            )
+            .required(),
     }),
 };
 

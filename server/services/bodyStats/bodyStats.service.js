@@ -124,17 +124,25 @@ function createPartQuery(query) {
         unit: '$stats.unit',
         conversion: '$stats.conversion',
     };
-    $project[group] = Groups[group];
-    const $group = {
-        id: { $first: '$id' },
-        name: { $first: '$name' },
-        value: { $sum: '$value' },
-        unit: { $first: '$unit' },
-        conversion: { $first: '$conversion' },
-    };
-    $group['_id'] = `$${query.group}`;
-    $group[group] = { $first: `$${query.group}` };
-    return [unwind, partQuery, { $project }, { $group }];
+
+    const finalQuery = [unwind, partQuery, { $project }];
+
+    if (query.group) {
+        $project[group] = Groups[group];
+        const $group = {
+            id: { $first: '$id' },
+            name: { $first: '$name' },
+            value: { $sum: '$value' },
+            unit: { $first: '$unit' },
+            conversion: { $first: '$conversion' },
+        };
+        $group['_id'] = `$${query.group}`;
+        $group[group] = { $first: `$${query.group}` };
+
+        finalQuery.push({ $group });
+    }
+
+    return finalQuery;
 }
 
 function createDatesQuery(query) {
@@ -155,10 +163,10 @@ async function getStats(params) {
 
     if (query.startDate && query.endDate) {
         const datesQuery = createDatesQuery(query);
-        statsQuery.push(datesQuery)
+        statsQuery.push(datesQuery);
     }
 
-    if (query.part && query.group) {
+    if (query.part || query.group) {
         const partQuery = createPartQuery(query);
         statsQuery = [...statsQuery, ...partQuery];
     }
