@@ -22,7 +22,7 @@ const addStats = {
                     id: Joi.string().required(),
                     name: Joi.string().required(),
                     value: Joi.number().required(),
-                    unit: Joi.string().equal('kg', 'lb', 'cm', '%'),
+                    unit: Joi.string().equal('kg', 'lb', 'cm', '%', 'inch'),
                     conversion: Joi.string(),
                 })
             )
