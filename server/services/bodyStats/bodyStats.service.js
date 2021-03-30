@@ -135,6 +135,7 @@ function createPartQuery(query) {
             value: { $sum: '$value' },
             unit: { $first: '$unit' },
             conversion: { $first: '$conversion' },
+            date: { $first: '$date' },
         };
         $group['_id'] = `$${query.group}`;
         $group[group] = { $first: `$${query.group}` };
