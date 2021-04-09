@@ -1,4 +1,3 @@
-/* eslint-disable  prettier/prettier */
 /* eslint-disable */
 const httpStatus = require('http-status');
 const MODModel = require('../../models/diet/mod.model');
