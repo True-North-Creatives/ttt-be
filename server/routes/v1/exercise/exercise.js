@@ -7,7 +7,7 @@ const authorize = require('../../../middlewares/auth');
 const { route } = require('../../../config/roles');
 const exercisesController = require('../../../controllers/exercises/exercises.controller');
 
-// create an exercise
+// create an exercis
 router.post(
     '/',
     authorize(route.ADD_EXERCISE),
